@@ -28,4 +28,8 @@
   possible through hypervisor which is a virtualization software and we have type 1 and tyep 2
   hypervisors tyep 1 is used in servers and type 2 is used in computer pcs makes a single
   computer act like multiple computers
-- 
+- containeriation is also a technology used for isolation but instead of having its own os it
+  uses the host os kernal and packages everything for apps to run in isolation and is achieved
+  through docker
+- we use hypervisor for virtualiation in a server or a system and then use containerization
+  for making small isolated conatiners in that isolated virtual environment
