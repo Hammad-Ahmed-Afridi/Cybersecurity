@@ -2,7 +2,7 @@
 ## Try Hack Me Presecurity path
 - dirb command used for finding hidden directories and pages on a website using `dirb` command
   ```bash
-  dirb **add the url or domian name**
+  dirb https://websitename.com
   ```
 - booting the pc involves pressing the power button then the power supply unit distributes the
   power to the components than the basic input output system BIOS or unified extensible firmware
