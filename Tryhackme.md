@@ -22,3 +22,10 @@
   then we have status codes like 200 OK 403 Forbidden 404 Page not found and we can find all
   this information related to domain requests and server responses by inspecting the page and
   going to network section
+- virtualization is a technology that makes small isolated compartments in a computer that has
+  its own os cpu ram memory allocated so that the computer or the server can be utilized in a
+  maximum way these isolated compartments are called virtual machine and this technology is
+  possible through hypervisor which is a virtualization software and we have type 1 and tyep 2
+  hypervisors tyep 1 is used in servers and type 2 is used in computer pcs makes a single
+  computer act like multiple computers
+- 
