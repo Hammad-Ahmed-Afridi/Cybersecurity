@@ -33,3 +33,7 @@
   through docker
 - we use hypervisor for virtualiation in a server or a system by creating virtual machines
   and then use containerization for making small isolated conatiners in those vms
+- cloud computing is basically renting out compute storage that is servers by not actually
+  owning the hardware the hardware belongs to big tech companies and companies just rent out
+  spaces for cost effectivness backups security redunduncy uptime reliability we have IAAS PAAS
+  SAAS we have public private and hybrid cloud
