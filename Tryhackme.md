@@ -31,5 +31,5 @@
 - containeriation is also a technology used for isolation but instead of having its own os it
   uses the host os kernal and packages everything for apps to run in isolation and is achieved
   through docker
-- we use hypervisor for virtualiation in a server or a system and then use containerization
-  for making small isolated conatiners in that isolated virtual environment
+- we use hypervisor for virtualiation in a server or a system by creating virtual machines
+  and then use containerization for making small isolated conatiners in those vms
