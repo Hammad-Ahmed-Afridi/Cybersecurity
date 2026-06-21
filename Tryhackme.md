@@ -37,3 +37,9 @@
   owning the hardware the hardware belongs to big tech companies and companies just rent out
   spaces for cost effectivness backups security redunduncy uptime reliability we have IAAS PAAS
   SAAS we have public private and hybrid cloud
+- we have the operating system that sits between the hardware and the applications that lets users
+  interact with the applications and lets application use the system resources like cpu ram
+  storage then we have os kernel that is the core of os that basically handle the system
+  resource management user management process manangement we have os for everypurpose like for
+  personnel computers mobiles servers etc we have cli which is the command line interface for
+  windows we have cmd and powershell and for linux we have bash bourne again shell or terminal
