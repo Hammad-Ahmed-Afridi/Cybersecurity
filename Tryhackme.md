@@ -87,3 +87,11 @@
   bits rgb red green blue used for making other colurs each colour has 256 different
   intensities which gives 256x256x256 colours 16.7 million we have binary base 2 decimal
   base 10 octal base 8 and hexadecimal base 16 0-9 A-F 
+- ascii american standard code for information interchange is used for data or character
+  encoding for english characters and numbers but for other languages it was not present
+  iso did the work for creating the encoding ascii schemes for other languages as well but
+  still there was issue that users sent something else and other user after decoding got
+  something else so we got unicode that replaced the legacy ascii scheme which gave an
+  encoding characters to each character in every languaage and then unicode uses the
+  unicode transformtion format utf8 utf16 utf32 to convert it to binary so that computers
+  can use and store it unicode is also used for emojis as well
