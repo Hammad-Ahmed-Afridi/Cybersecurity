@@ -76,4 +76,14 @@
   whoami
   systeminfo
   ```
-- CIA triad that is 
+- CIA triad that is confidentiality integrity availibility confidentiality is securing or
+  protecting against unauthorized access integrity is protection against unauthorized change
+  and availibilty is the data or information or resources available using backups and
+  redunduncy access control is basically the process of controlling who gets to use what
+  principle of least privilage polp is allowing activities or actions to users that will
+  let them do their intended tasks or work without giving any other allowences malware is
+  the malicious software virus worms trojans rootkist logic bombs ransomware
+- bits are 0 and 1 one bit can have one of te two values 1 or 0 and in a byte we have 8
+  bits rgb red green blue used for making other colurs each colour has 256 different
+  intensities which gives 256x256x256 colours 16.7 million we have binary base 2 decimal
+  base 10 octal base 8 and hexadecimal base 16 0-9 A-F 
