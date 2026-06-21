@@ -43,3 +43,21 @@
   resource management user management process manangement we have os for everypurpose like for
   personnel computers mobiles servers etc we have cli which is the command line interface for
   windows we have cmd and powershell and for linux we have bash bourne again shell or terminal
+- now some bash commands
+  ```bash
+  pwd prints current directory
+  cd change directory
+  ls list content
+  ls -al list hidden content that os hides by default starts with the . operator
+  find finds the file or folder file . or ~ or / -name filename file / -type d -name directory
+  touch to create a file
+  echo to write content to file echo "text" > filename
+  nana filename used also
+  deleting a file or folder rm filename rm -r foldername
+  whoami for checking the user
+  ssh username@ipaddress
+  for root access jjust type su - root
+  when logged in and want to switch user su - username
+  history command for checking the command typed in the past
+  ```
+  
