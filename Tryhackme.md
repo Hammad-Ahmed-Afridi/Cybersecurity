@@ -43,10 +43,13 @@
   resource management user management process manangement we have os for everypurpose like for
   personnel computers mobiles servers etc we have cli which is the command line interface for
   windows we have cmd and powershell and for linux we have bash bourne again shell or terminal
+  the user have the highly privilaged unrestricted access in windows is called administrator and
+  in linux is called root
 - now some bash commands
   ```bash
   pwd prints current directory
   cd change directory
+  for moving one directory back cd ..
   ls list content
   ls -al list hidden content that os hides by default starts with the . operator
   find finds the file or folder file . or ~ or / -name filename file / -type d -name directory
@@ -60,4 +63,17 @@
   when logged in and want to switch user su - username
   history command for checking the command typed in the past
   ```
-  
+- some cmd commands
+  ```cmd
+  cd instead of pwd
+  cd for changing directory as well
+  for moving one directory back cd ..
+  dir instead of ls
+  dir /a instead of ls -al
+  dir /s instead of find
+  type instead of cat
+  ipconfig
+  whoami
+  systeminfo
+  ```
+- CIA triad that is 
