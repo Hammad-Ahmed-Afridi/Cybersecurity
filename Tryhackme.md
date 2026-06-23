@@ -110,3 +110,9 @@
   built the nic and the last six digits give us the host numebr which is unique mac
   addresses can be stolen and changed by spoofing that is making another device use the
   mac of one device and act like it
+- we have ping command which uses internet control messsage protocol packet icmp to ensure
+  devies connected to the network are sending and receiving packets without any hindrance
+  and it also checks or gives us time taken in milliseconds
+  ```bash or cmd
+  ping (ipaddress or domain name)
+  ```
