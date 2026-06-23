@@ -95,3 +95,18 @@
   encoding characters to each character in every languaage and then unicode uses the
   unicode transformtion format utf8 utf16 utf32 to convert it to binary so that computers
   can use and store it unicode is also used for emojis as well
+- network are devices connected together we have private network and public network
+  internet is a giant network connectoing many small networks together creator of world
+  wide web tim berners lee
+- we have ip address and mac address internet protocol is a
+  4 octet number like 192.168.1.1 having 0-255 variations for each octet this is ipv4
+  the ip address is given by the techniques called ip addressing and subnetting
+  we needed ipv6 because number of devices on the internet were growing and this address
+  can never be same for two devices on a single network so we need ipv6 address that is
+  represented by aaaa:2222:2222:4444:bbbb:gggg:4444:3333 we have media access control
+  address which is the permanent address of a device which is and can be connected to a
+  network or internet because of a nic network interface ccard it has on its motherboard
+  the address is like a4:b5:74:v5:9h:gg the first six digits gives us the manufacturer who
+  built the nic and the last six digits give us the host numebr which is unique mac
+  addresses can be stolen and changed by spoofing that is making another device use the
+  mac of one device and act like it
