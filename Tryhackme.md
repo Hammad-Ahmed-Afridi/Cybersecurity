@@ -171,4 +171,3 @@
   adds mac addresses using the arp protocol to check which mac has this ip so that packets
   could be transfered to desired destination layer 1 is the pysical layer that deals with
   physical aspects of the networking that is hardware which include RJ45 ethernet cables
-- 
