@@ -150,3 +150,25 @@
   different devices in a network and crossover is used for connecting same devices in a network
   a cable has 8 wires twisted together in pairs of 4 we have cat5 cat6 cat7 cat8 (category)
   the cables are twisted so that the data loss is reduced and interferance is also reduced
+- OSI open systems interconnection model developed by iso is a conceptual model or
+  framework for networking is a netgworking model that tells us how data is
+  sent and received over the network and this model has seven layers 7 application
+  6 presentation 5 session 4 network 3 transport 2 data link 1 physical data moving
+  from layer 7 to layer 1 is encapsulated that is more data is added and when in reverse it
+  is decapsulated layer 7 application is the software side the apps we use and work on that
+  show us data that got received and also from here we send the data as well layer 6
+  presentation is the layer responsible for making that data transferable and useable over
+  a network layer 5 session is the layer that manages to construct and maintain connection
+  between the sender and the receiver systems and is alos responsible for cutting the
+  connection as well layer 4 is the transport layer is the layer that uses the session
+  established and transport the data or packets over the network using tcp or udp
+  tcp transmission control protocol which is relaible and safe use tcp three way handshake
+  synchronize synchronize/acknowledge and acknowledge steps udp user datagram protocol
+  is fast but not relaible as data can get lost layer 3 is the network this layer actually
+  directs the traffic over to the desired destination network over an entire system of
+  networks using protocols like ospf open shortest path first and routing information
+  protocol layer 2 is the data link layer which receives teh packets from the layer 3 and
+  adds mac addresses using the arp protocol to check which mac has this ip so that packets
+  could be transfered to desired destination layer 1 is the pysical layer that deals with
+  physical aspects of the networking that is hardware which include RJ45 ethernet cables
+- 
