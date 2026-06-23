@@ -1,5 +1,5 @@
-# Cybersecurity
-## Try Hack Me Presecurity path
+# Try Hack Me
+## Presecurity
 - dirb command used for finding hidden directories and pages on a website using `dirb` command
   ```bash
   dirb https://websitename.com
