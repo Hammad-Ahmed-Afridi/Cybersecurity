@@ -135,3 +135,14 @@
   is deviding a network into smaller networks in ipaddress 192.168.1.1 we have the network
   address 192.168.1.0 and then the host address is from .1 to .254 and the broadcast address
   .255 and the default gateway is either one of the host address
+- ARP address resolution protocol which sends a packet using the braodcast address to the
+  entire network that which mac address has this ip address and then the device with that
+  specific ip responds that it has that mac address and then it is stored in cache for
+  future use ARP request ARP reply
+- ip addresses are assigned to devices either manually or through a DHCP server dynamic
+  host configuration protocol server first when device connects to a network it is either
+  an ip address manually or sends a DHCP discover request packet on the network and then when
+  DHCP server is present it sends a DHCP offer that this ip is available then the device
+  sends DHCP request and the DHCP server DHCP acknowlodge packet and then the device starts
+  using the ip address
+- 
