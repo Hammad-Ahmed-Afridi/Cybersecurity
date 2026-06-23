@@ -131,4 +131,7 @@
   within that company than we have swicth that connects different devices together to form a
   network and in modern routers we have modems prebuilt and also they have wap as well
   modem modulator demodulator
-- 
+- ip addresses and assigned through a techniques known as subnetting using a subnet mask that
+  is deviding a network into smaller networks in ipaddress 192.168.1.1 we have the network
+  address 192.168.1.0 and then the host address is from .1 to .254 and the broadcast address
+  .255 and the default gateway is either one of the host address
