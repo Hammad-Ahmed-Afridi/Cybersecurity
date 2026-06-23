@@ -145,4 +145,8 @@
   DHCP server is present it sends a DHCP offer that this ip is available then the device
   sends DHCP request and the DHCP server DHCP acknowlodge packet and then the device starts
   using the ip address
-- 
+- rj45(this is the plastic connecter at the end of the cables) ethernet cables are of two
+  types straight through cables and crossover cable straight through used for connecting
+  different devices in a network and crossover is used for connecting same devices in a network
+  a cable has 8 wires twisted together in pairs of 4 we have cat5 cat6 cat7 cat8 (category)
+  the cables are twisted so that the data loss is reduced and interferance is also reduced
