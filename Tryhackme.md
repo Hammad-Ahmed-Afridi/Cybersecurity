@@ -116,3 +116,19 @@
   ```bash or cmd
   ping (ipaddress or domain name)
   ```
+- lan topologies that is the design of a network we have star bus and ring topology in star
+  all the devices are connected to the centre hub or switch which is a device that connects
+  different devices on a netwrok using the ethernet technology or cables (RJ45 rigistered
+  jack) cat5 cat6 cat7 cat8 the older version of switch was repeater which was dumb that forward
+  the packets to every device on that network in bus topology the devices are connected to a
+  single backbone that is a wire or a connection in ring topology every device is connected
+  to one another in a ring like 1 is connected to 2 and 2 is connected to 3 and 3 is then
+  connected to 1 in this way if one connection breaks the entire network goes down and if
+  one device is sending the traffic then it can not receive traffic then we have router which
+  connects different networks together switchs and router both have ports  and routers direct
+  traffic within network and switches direct traffic within devices we have modem that brings
+  the internet from isp to a comapany and then we have router that connects different networks
+  within that company than we have swicth that connects different devices together to form a
+  network and in modern routers we have modems prebuilt and also they have wap as well
+  modem modulator demodulator
+- 
