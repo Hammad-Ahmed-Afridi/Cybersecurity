@@ -194,3 +194,8 @@
   have predefined rules but they are smart not dumb like the stateless they monitor
   the entire network connection and blocks not only the packets but also the
   connection if found malacious 
+- vpn virtual private network lets devices across different networks connect to each
+  other securely as they are physically present their and that connection is secure
+  encrypted and not visible to the people over the internet except the isp provider
+  this is helpful if an office is located far from the main office and the sub office
+  wants to use the resources or systems of the main office like servers computers 
