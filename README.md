@@ -214,4 +214,21 @@
   as host address and .255 as the broadcast address and .1 as default gateway and
   for vlan 2 we will have 192.168.2.0 as network adddress and 192.168.2.1-254/24
   as host address and .255 as the broadcast address and .1 as default gateway
+- DNS domain name system lets us use the services over the web by translating our
+  website request to ip address like domain name to ip address www.google.com to
+  8.8.8.8 domain heirarchy is root-tld top level domain-sld second level domain
+  subdomain root(.) tld(.com,.edu,.gov,.ca,.uk tld is of two types cctld(country
+  code) gtld(generic)) second level domain is the domain in which another part is
+  added before the tld like google.com and subdomain is the part added the left of
+  sld using a . operator like sites.google.com dns record types are A for ipv4
+  addresses AAAA for ipv6 addresses 
+- first request is made and is checking in the local os and browser cache if found
+  the service is provided if not the request is forwarded to recursive dns server
+  provided by isp which also checks if it is present in its cache if not the request
+  is forwarded to the root server which checks the tld and forward it to that
+  specific tld server which also forwards it to the actual server that holds all the
+  records to that specific domain and then after that the dns record is stored in the
+  local browser or so cache as well for future use with time to live ttl and the
+  browser gets the ip address for that specific server which it will use for making
+  the actual request
 - 
