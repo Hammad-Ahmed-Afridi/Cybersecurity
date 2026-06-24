@@ -231,4 +231,23 @@
   local browser or so cache as well for future use with time to live ttl and the
   browser gets the ip address for that specific server which it will use for making
   the actual request
-- 
+- http is a protocol used for requesting and delivering html over the web and its
+  secure version is https that encrypts the traffic for requesting a server for
+  a website or some other web service we use url uniform resource locater that has
+  protocol then the domain name and then the port number than the path and the some
+  quesries with a question mark sign and then some fragments witha hash sign we have
+  methods and the four main methods are get method which is used for retreiving
+  information then we have post method used for putting new information on the server
+  then we have put method for updating old information on the server and then we have
+  delete method for deleting information on the server we then have status codes
+  which show us what happened with our request and what happened with the servers
+  response 200-ok 404-page not found 403-forbidden 503-service unavailable then we
+  have headers that have additional data for the server when request is made
+  containing cookies content length content type host then their are header responses
+  sent by the server to the client containing set cookie cookies are small pieces of
+  data that are sent by the server so that it can authenticate a person whenever the
+  service is used by that person and the server sends the cookie data in the form of
+  set cookie that gets stored in the cookie storage this happens because http is stateless
+  and in order to remember the user and its activity without the need for authentication
+  again and again cookies are used which are forwarded to the server upon request and has ttl 
+
