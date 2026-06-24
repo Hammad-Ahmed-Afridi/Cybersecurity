@@ -199,3 +199,19 @@
   encrypted and not visible to the people over the internet except the isp provider
   this is helpful if an office is located far from the main office and the sub office
   wants to use the resources or systems of the main office like servers computers 
+- routers are layer 3 networking devices that do routing managing packet transmission
+  over the network and choosing the most reliable most safest and most fastest path
+  over the network using protocols like ospf or rip then we have switches which can
+  be managed or unmanaged which are layer 2 and layer 3 networking devices on layer
+  2 they deal with mac addresses and on layer 3 they dela with ip addresses as well
+  we use routers for subnetting which is nwtwork segmentation proccess and we use
+  switches layer 2 for vlan virtual local area network when doing vlan segmentation
+  we devide a single switch into two or three virtual switches having that become
+  isolated from each other and needs a router to send and receive the packets just
+  like 2 seperte switches connected to each other through a router we can also use
+  two seperate switches as well for vlan we have on public ip that is used by router
+  and for vlan 1 we will have 192.168.1.0 as network adddress and 192.168.1.1-254/24
+  as host address and .255 as the broadcast address and .1 as default gateway and
+  for vlan 2 we will have 192.168.2.0 as network adddress and 192.168.2.1-254/24
+  as host address and .255 as the broadcast address and .1 as default gateway
+- 
