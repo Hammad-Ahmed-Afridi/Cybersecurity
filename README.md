@@ -97,7 +97,7 @@
   can use and store it unicode is also used for emojis as well
 - network are devices connected together we have private network and public network
   internet is a giant network connectoing many small networks together creator of world
-  wide web tim berners lee
+  wide web tim berners lee public network is internet and private is intranet 
 - we have ip address and mac address internet protocol is a
   4 octet number like 192.168.1.1 having 0-255 variations for each octet this is ipv4
   the ip address is given by the techniques called ip addressing and subnetting
