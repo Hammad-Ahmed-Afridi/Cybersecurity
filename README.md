@@ -171,3 +171,17 @@
   adds mac addresses using the arp protocol to check which mac has this ip so that packets
   could be transfered to desired destination layer 1 is the pysical layer that deals with
   physical aspects of the networking that is hardware which include RJ45 ethernet cables
+- packets are chunks or prices of data or informatio sent over a network and frames
+  is basically packet within a packet that is when encapsulation occurs more data is
+  added to packet and the packet is wrapped around another packet and that packet is
+  called frame in packet we have source and destination ip and in frame the source
+  and destination mac addresses are also added
+- ports are of two types hardware and software hardware ports are pockets or sockets
+  in a system that connects to ethernet cables or hdmi cables so that other devices
+  could be connected to it or used by it and software ports are virtual ports
+  ranging from 0-65535 are endpoints that allow the internet traffic to be directed
+  to the desired destination or interface or application they act as doors to the
+  internet traffic common ports ssh22 ftp21 telnet23 http80 https443 protocols are
+  standards set that the computers use when communicating with each other and over
+  the internet
+- 
