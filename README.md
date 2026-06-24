@@ -184,4 +184,13 @@
   internet traffic common ports ssh22 ftp21 telnet23 http80 https443 protocols are
   standards set that the computers use when communicating with each other and over
   the internet
-- 
+- port forwarding lets a private network make its system or systems public by
+  opening up specific ports or ports to the public internet so that anyone over a
+  different network use the services of that private network and this is acheived
+  in routers firewalls are either softwares or hardwares but both have the same
+  function managing what traffic gets allowed in the network and gets to go outside
+  network they are of two type stateless which have pre defines rules and only acts
+  on those rules like blocking packets that are malacious and statefull that also
+  have predefined rules but they are smart not dumb like the stateless they monitor
+  the entire network connection and blocks not only the packets but also the
+  connection if found malacious 
