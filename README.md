@@ -287,4 +287,23 @@
   and what resources are needed to be up all the time and when a breach happens questions
   arise in this way what confidential information got stolen what information got changes and
   what resources went down 
-- 
+- we have plain text that is human readable and then we have cipher text that is gibberish
+  in crytography wat we do is convert the plain text in to cipher text their are two types of
+  encryption symmetric encryption and asymmetric encryption in encryption we use key and an
+  encryption algorithm to convert plain text into cipher text and then use key and
+  decryption algorithm to convert a cipher text in to plain text in symmetric encryption we
+  use a single key for encryption and decrytion but the key needs to be secure so that the
+  attacker can not decrypt the message sent and also that key needs to be exchaged safely and
+  for that we can not encrypt the key because then we have another key and teh same problem
+  appears so for this asymmetric encryption came in which their are two keys one public key
+  and private key one persons public key is used for encryption and that key is sent over the
+  internet and teh same persons private key can only decrypt the cipher both these keys are
+  mathematically linked in modern internet hybrid model of encryption is used asymmetric
+  encryption is used for transfering the key between the two parties and then that same is
+  used for symmetric encryption on both sides for faster cryptography and in this scenario
+  one question arises what if the key sent over the internet that is the public key is sent
+  from an attacker not a valid person so for mitigating this ca certifying autorities come
+  in to play that gives certificates which show the public key as well as the owner of the
+  key and the signature of that ca so that anyone can trust on it every os and browser has a
+  certificate store which has certificates that are pre signed so that the process of
+  verification or authentication becomes quick
