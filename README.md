@@ -252,9 +252,23 @@
   again and again cookies are used which are forwarded to the server upon request and has ttl
 - how web works first we request the website on browser and then the request gets sent over
   the internet and then to the server and then the server responds with the website which 
-  ts shown on the browser the website the made up of html css javascript in the code the
+  gets shown on the browser the website the made up of html css javascript in the code the
   developer may have left some sensitive information which can be used by the attacker for
   unauthorized actions html injection displays text or code on the front end when the input
   sanitization is not implemented like not checking or blocking what user entered and
   accepting it as it is
+- first the domain name is types in the browser and the dns server looks up and returns the
+  ip address for that domain and then the request is sent to the server over the internet and
+  then the response is presented on the browser we also have some other technologies in
+  between this request and response which is load balancers which sits between the serve and
+  the response and manages the traffic what it does is use algorithms to direct the traffic
+  to the least busy server so that the up time is not effected and clients can use the
+  services without any hindrance like round robin or weighted they also do health checks on
+  the servers as well than we have cdn content delivery network what it does is instead of
+  string a website or web app on a single server it stores copies of it on multiple servers
+  over the entire globe and when a user requests the service the request is sent to the most
+  nearest server possibble for fast responses and minimal load then we have databases that
+  store information so that it can be accessible over the internet then we have waf web
+  application firewall that sits between client and server and protects the server from
+  malacious activities like ddos distributed denial of servic or malacious packets or ips
 - 
