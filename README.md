@@ -320,4 +320,7 @@
   =^USER^&password=^PASS^:F=incorrect" -V first they do enumeration that is finding and
   gethering information related to the system this process is done by both the red teamers
   are black hat hackers
-- 
+- defensive security blue teaming and methodologies used for defending and protecting a system
+  against malacious actors they maintain the  cia triad methodology and for this they have
+  to first understand the system and then secure it from hackers and monitor the activity in it
+  they prevent detect and mitigate attacks
