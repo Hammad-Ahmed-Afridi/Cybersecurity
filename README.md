@@ -307,3 +307,17 @@
   key and the signature of that ca so that anyone can trust on it every os and browser has a
   certificate store which has certificates that are pre signed so that the process of
   verification or authentication becomes quick
+- offensive security red teaming pentesters are basically methodologies and individuals that
+  hack a system in an ethical legal way to find flaws and weaknesses and vulnerabilities
+  before a real attacker does and for this first you need to understand the system find the
+  vulnerabilities and then exploit them in websites first in order to find hidden or all the
+  directories or web pages we use the dirb domain or url or use the gobuster tool with
+  command: gobuster dir --url http://www.onlineshop.thm/ -w /usr/share/wordlists/dirbuster/
+  directory-list.txt and when a secret page is found that can give privilage level or give
+  some sort or administrator role we exploit that by either bruteforcing the password or
+  do a dictionary attack for dictionary attack we use hydra for passwords if the admin name
+  is know : hydra -l admin -P passlist.txt www.onlineshop.thm http-post-form "/login:username
+  =^USER^&password=^PASS^:F=incorrect" -V first they do enumeration that is finding and
+  gethering information related to the system this process is done by both the red teamers
+  are black hat hackers
+- 
