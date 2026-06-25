@@ -279,4 +279,12 @@
   which is frontend and server side which is backend and that backend basically lets clients
   do the talking with the web server and database and vice versa and that backend is writtin
   in many languages like java python php c++ etc
+- CIA triad confidentiality integrity availability confidentiality is the protection against
+  unauthorized access integrity is the protection against unauthorized change and
+  availability is making the resources or services available when needed whenever is system is
+  to be secured the security engineer thinks in this way keeping the cia triad in mind what
+  resources are to be protected from hacks and what resources and to be protected from change
+  and what resources are needed to be up all the time and when a breach happens questions
+  arise in this way what confidential information got stolen what information got changes and
+  what resources went down 
 - 
