@@ -249,5 +249,12 @@
   service is used by that person and the server sends the cookie data in the form of
   set cookie that gets stored in the cookie storage this happens because http is stateless
   and in order to remember the user and its activity without the need for authentication
-  again and again cookies are used which are forwarded to the server upon request and has ttl 
-
+  again and again cookies are used which are forwarded to the server upon request and has ttl
+- how web works first we request the website on browser and then the request gets sent over
+  the internet and then to the server and then the server responds with the website which 
+  ts shown on the browser the website the made up of html css javascript in the code the
+  developer may have left some sensitive information which can be used by the attacker for
+  unauthorized actions html injection displays text or code on the front end when the input
+  sanitization is not implemented like not checking or blocking what user entered and
+  accepting it as it is
+- 
