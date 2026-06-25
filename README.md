@@ -271,4 +271,12 @@
   store information so that it can be accessible over the internet then we have waf web
   application firewall that sits between client and server and protects the server from
   malacious activities like ddos distributed denial of servic or malacious packets or ips
+- web servers stores web services like websites webapps and when a request is sent or received
+  by the server from the internet it delivers the desired requested service to the client on
+  the internet the web server is hardware that is the physical black machine and then it has
+  software installed in it like apache nginx and also for the software to work the os is also
+  installed like ubuntu server rhel or windows server for the websites we haev client side
+  which is frontend and server side which is backend and that backend basically lets clients
+  do the talking with the web server and database and vice versa and that backend is writtin
+  in many languages like java python php c++ etc
 - 
