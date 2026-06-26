@@ -335,3 +335,7 @@
   cves and their cvss commom vulnerability scoring system in cve official website nist nvd
   national vulnerability database and also for proof of concepts and exploit codes we can use
   github which also has detailed technical reports for a cve 
+- in linux if a user wants to get details about a cerrtain tool or commad they use man or -h
+  for it like man toolname/command or toolname/command -h man stands for manual and h stands
+  for help we can alos use whatis command/toolname
+- 
