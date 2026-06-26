@@ -324,5 +324,7 @@
   against malacious actors they maintain the  cia triad methodology and for this they have
   to first understand the system and then secure it from hackers and monitor the activity in it
   they prevent detect and mitigate attacks
-
---
+- shodan is the tools used as a browser for iot devices like it deals with all the devices that
+  have a public ip and scans them for open ports servers gives details to them like versions
+  countries
+- 
