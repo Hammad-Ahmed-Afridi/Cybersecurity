@@ -330,4 +330,8 @@
 - virustotal is a tool that lets user scan a file a url a domain against 70+ known virus
   detection engine adn scanners that will flag the input and give off the malacious factor
   score
-- 
+- cve common vulnerability and exposure is a database for all the known vulnerabilities in
+  this database their are vulnerabilities with naming as cve-year-unique number we can check
+  cves and their cvss commom vulnerability scoring system in cve official website nist nvd
+  national vulnerability database and also for proof of concepts and exploit codes we can use
+  github which also has detailed technical reports for a cve 
