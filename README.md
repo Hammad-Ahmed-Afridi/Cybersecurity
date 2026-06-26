@@ -327,4 +327,7 @@
 - shodan is the tools used as a browser for iot devices like it deals with all the devices that
   have a public ip and scans them for open ports servers gives details to them like versions
   countries
+- virustotal is a tool that lets user scan a file a url a domain against 70+ known virus
+  detection engine adn scanners that will flag the input and give off the malacious factor
+  score
 - 
