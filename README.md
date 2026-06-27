@@ -338,4 +338,4 @@
 - in linux if a user wants to get details about a cerrtain tool or commad they use man or -h
   for it like man toolname/command or toolname/command -h man stands for manual and h stands
   for help we can alos use whatis command/toolname
-- 
+  
