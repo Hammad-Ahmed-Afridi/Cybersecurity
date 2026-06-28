@@ -64,6 +64,10 @@
   mv file1 file2  // used for file and folder copying first is to be moved and second is the location
   file filaname  // gives the filetype forexample text or image
   chmod 444 file.txt  // uses the file permission and the file is read only for everyone including the group and the owner
+  scp important.txt ubuntu@192.168.1.30:/home/ubuntu/transferred.txt
+  scp ubuntu@192.168.1.30:/home/ubuntu/documents.txt notes.txt
+  python3 -m http.server
+  wget http://MACHINE_IP:8000/myfile
   ```
 - we use & and then the command to make the process run in the background and use fg to make the
   background processes come in the foregroud also we use && to type multiple commands in a single
@@ -79,3 +83,12 @@
   credentials that are salted and hashed then we have /var that has information about system logs and
   usage var stands for variable then we have /root which is the home directory for root user and then we
   /tmp stands for temporary it has temporary data just like ram has that system uses 
+- terminal editors include the nano which we get using the nano command and the filename and vim
+  we use wget webpage url to download the webpage we are currently on our local machine only the html
+  part for downloading the images and style as well use wget -p -k https://example.com and for
+  downloading the entire website we use wget -m https://example.com and the gets downloaded in the same
+  folder we used the command in we use the scp for  copying files between the source and destination using
+  ssh the command is mentioned in the bash section then we have python3 which we use to either make out host
+  or other remote machine a webserver and download files on the machine we use commad python3 -m http.server
+  in the folder we want the files to be downloaded and then on the other machine use the wget command
+  wget http://MACHINE_IP:8000/myfile
