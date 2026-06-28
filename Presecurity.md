@@ -47,21 +47,24 @@
   in linux is called root
 - now some bash commands
   ```bash
-  pwd prints current directory
-  cd change directory
-  for moving one directory back cd ..
-  ls list content
-  ls -al list hidden content that os hides by default starts with the . operator
-  find finds the file or folder file . or ~ or / -name filename file / -type d -name directory
-  touch to create a file
-  echo to write content to file echo "text" > filename
-  nana filename used also
-  deleting a file or folder rm filename rm -r foldername
-  whoami for checking the user
-  ssh username@ipaddress
-  for root access jjust type su - root
-  when logged in and want to switch user su - username
-  history command for checking the command typed in the past
+  pwd  // prints current directory
+  cd foldername  // change directory
+  cd ..  // going one directory back
+  ls  // list content
+  ls -al  // list hidden content that os hides by default starts with the . operator
+  find -name filname.txt  // finds the file
+  find . -type d -name "directory name"  //  . for searching within active directory or ~ for home directory or / for root directory
+  touch filname  // to create a file
+  echo "hello"  // to write content
+  echo "text" > filename or >>filename
+  nano filename  // used for booting the text editor
+  rm filename  // delating a file
+  rm -rf foldername  // deleting a folder
+  whoami  // for checking the user
+  ssh username@ipaddress  // secure shell
+  su - root  // for root access
+  su - username  // switching users
+  history  // command for checking the command typed in the past
   ```
 - some cmd commands
   ```cmd
