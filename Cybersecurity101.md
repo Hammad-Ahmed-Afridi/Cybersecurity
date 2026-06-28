@@ -45,5 +45,15 @@
   pwd  // prints working directory or current directory
   find -name filename.txt  // finding the file in a directory
   find -name *.txt  // the wildcard is used for finding all the files with the .txt extension
-  
+  find . -type d -name "directory name"  //  . for searching within active directory or ~ for home directory or / for root directory
+  touch filname  // to create a file
+  echo "hello"  // to write content
+  echo "text" > filename or >>filename
+  nano filename  // used for booting the text editor
+  rm filename  // delating a file
+  rm -rf foldername  // deleting a folder
+  ssh username@ipaddress  // secure shell
+  su - root  // for root access
+  su - username  // switching users
+  history  // command for checking the command typed in the past
   ```
