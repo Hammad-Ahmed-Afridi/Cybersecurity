@@ -75,4 +75,7 @@
   second is for the group and the third is for the whole world r has teh value of 4 and w has the value
   2 and x has the value of 1 and for each bock it adds up we use these numeric values in chmod command
   in which we give and take permissions to a specific file chmod is change mode
-- 
+- common directories like /etc that has /etc/passwd for user info and /etc/shadow for user login
+  credentials that are salted and hashed then we have /var that has information about system logs and
+  usage var stands for variable then we have /root which is the home directory for root user and then we
+  /tmp stands for temporary it has temporary data just like ram has that system uses 
