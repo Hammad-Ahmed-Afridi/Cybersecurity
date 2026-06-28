@@ -34,6 +34,8 @@
 - Linux is basically an os kernel that was built by linus torvalds and it was bundled with
   GNU softwares and packages to create an os called GNU/linux which is basically the parent os
   for all the distributions that are existing today like ubuntu debian kali linux rhel fedora etc
+  for root actions we use the keyword sudo and then the command and tehn it will ask fo for the
+  password and then the actions will be performed for the local user
 - now some bash commands
   ``` bash
   echo hello world  // give us the output on the screen
@@ -68,6 +70,12 @@
   scp ubuntu@192.168.1.30:/home/ubuntu/documents.txt notes.txt
   python3 -m http.server
   wget http://MACHINE_IP:8000/myfile
+  apt search toolname
+  apt update  // we can put toolname with it also for specifying it
+  apt upgrade  // same here
+  apt install toolname
+  apt remove toolname
+  apt purge toolname
   ```
 - we use & and then the command to make the process run in the background and use fg to make the
   background processes come in the foregroud also we use && to type multiple commands in a single
@@ -92,3 +100,16 @@
   or other remote machine a webserver and download files on the machine we use commad python3 -m http.server
   in the folder we want the files to be downloaded and then on the other machine use the wget command
   wget http://MACHINE_IP:8000/myfile
+- processes are programs running on the machine they have their specific id known as PID and the pids are
+  given in systematic order like first 0 is given then 1 then 2 then 3 and so on the processes can be seen
+  using ps aux or top command the pid 0 goes to the first process that boots after the pc turns on that is
+  systemd and this is the parent process from which all other child proecss comes out we can kill a process
+  using kill command and then the pid also we can start stop enable or disable process at the boot using
+  systemctl start apache
+- we use cronjobs for scheduling a task in linux we use the command crontab -e for adding the task and use
+- crontab -l for checking the cronjobs the systematic way of writing a cronjob is * * * * * command
+  the first area is for minute that is 0-59 the second is for hour that is 0-23 the third is for day of the
+  month that is 1-31 the fourth is for month of the year that is 1-12 and the last is day of the weak that is
+  0-6 0 is the sunday and so on
+- for package management or software downloads we use apt advanced package tool for searching downloading and
+  updating the packages and tools in the machine
