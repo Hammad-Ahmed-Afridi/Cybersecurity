@@ -39,6 +39,7 @@
   echo hello world  // give us the output on the screen
   whoami  // tells us about the current user
   ls  // lists all the files and directories in the current folder
+  ls -al  // listing the hidden files and folders also starting with the . operator that the system hides by default also give file permission info
   cd foldername  // change the directory to teh name mentioned
   cd ..  // goes back one directory
   cat filename  // outpust the text in the file on the screen
@@ -47,13 +48,31 @@
   find -name *.txt  // the wildcard is used for finding all the files with the .txt extension
   find . -type d -name "directory name"  //  . for searching within active directory or ~ for home directory or / for root directory
   touch filname  // to create a file
+  mkdir foldername  // making a new directory 
   echo "hello"  // to write content
   echo "text" > filename or >>filename
   nano filename  // used for booting the text editor
   rm filename  // delating a file
   rm -rf foldername  // deleting a folder
-  ssh username@ipaddress  // secure shell
+  ssh username@ipaddress  // secure shell use logout for terminating the session
   su - root  // for root access
-  su - username  // switching users
+  su - username  // switching users also type logout for logging out
   history  // command for checking the command typed in the past
+  man command or toolname  // use for manual pages
+  command or toolname -h or --help  // used for help
+  cp file1 file2  // used for file and folder copying first is to be copied and second is the location
+  mv file1 file2  // used for file and folder copying first is to be moved and second is the location
+  file filaname  // gives the filetype forexample text or image
+  chmod 444 file.txt  // uses the file permission and the file is read only for everyone including the group and the owner
   ```
+- we use & and then the command to make the process run in the background and use fg to make the
+  background processes come in the foregroud also we use && to type multiple commands in a single
+  line we use > operator for writting text to a file and that deletes the pre written text in it
+  and >> operator for writing text with the pre writtin text like it does not delete it
+- we use ssh secure shell to remotely adn securely connect to a linux machine using encryption
+  it lets us execute commands on the remote machine and the sent data is encrypted over the internet
+- file or folder permissions and rwxrwxrwx that is read write execute the first is for the owner the
+  second is for the group and the third is for the whole world r has teh value of 4 and w has the value
+  2 and x has the value of 1 and for each bock it adds up we use these numeric values in chmod command
+  in which we give and take permissions to a specific file chmod is change mode
+- 
