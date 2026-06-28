@@ -110,6 +110,8 @@
 - crontab -l for checking the cronjobs the systematic way of writing a cronjob is * * * * * command
   the first area is for minute that is 0-59 the second is for hour that is 0-23 the third is for day of the
   month that is 1-31 the fourth is for month of the year that is 1-12 and the last is day of the weak that is
-  0-6 0 is the sunday and so on
+  0-6 0 is the sunday and so on we can use shortcuts as well with the @ sign like @reboot @daily @weekly
+  @monthly and then type command in this way we dont have to write the full 5 fields and also the hash sign
+  shows comments in the crontab
 - for package management or software downloads we use apt advanced package tool for searching downloading and
   updating the packages and tools in the machine
