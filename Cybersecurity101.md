@@ -31,3 +31,19 @@
 - in linux if a user wants to get details about a cerrtain tool or commad they use man or -h
   for it like man toolname/command or toolname/command -h man stands for manual and h stands
   for help we can alos use whatis command/toolname
+- Linux is basically an os kernel that was built by linus torvalds and it was bundled with
+  GNU softwares and packages to create an os called GNU/linux which is basically the parent os
+  for all the distributions that are existing today like ubuntu debian kali linux rhel fedora etc
+- now some bash commands
+  ``` bash
+  echo hello world  // give us the output on the screen
+  whoami  // tells us about the current user
+  ls  // lists all the files and directories in the current folder
+  cd foldername  // change the directory to teh name mentioned
+  cd ..  // goes back one directory
+  cat filename  // outpust the text in the file on the screen
+  pwd  // prints working directory or current directory
+  find -name filename.txt  // finding the file in a directory
+  find -name *.txt  // the wildcard is used for finding all the files with the .txt extension
+  
+  ```
