@@ -1,4 +1,4 @@
-# Try Hack Me
+ Try Hack Me
 ## Cybersecurity 101
 - offensive security red teaming pentesters are basically methodologies and individuals that
   hack a system in an ethical legal way to find flaws and weaknesses and vulnerabilities
