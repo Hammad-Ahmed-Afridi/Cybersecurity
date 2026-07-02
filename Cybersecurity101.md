@@ -126,3 +126,8 @@
   file and folder permissions that FAT and HPFS high performance file system did not brought in the c directory
   we have windows folder that holds the windows operating system and in that folder we have a critical most
   important folder called system32 folder 
+- for managemnet for the entire system like all the user account file folder and devices and equipments and other
+  controls just type cmd or dialogue box and type compmgmt.msc and for control panel type control panel for user
+  account control just open dialogue box and type useraccountcontrolsettings and just move the pointer to which
+  security you want for checking performance of the system and check the apps running and also check about cpu ram
+  we use task manager and the dialogue box prompt is taskmgr
