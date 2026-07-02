@@ -140,3 +140,9 @@
   that were done by bitlocker the keys are handed over to cpu and when decryption of the main folder occurs like the
   wiindows folder the other happens as we go the then os kernel takes control booting up the os itself and then it lets
   users interact with software and applications using hardware
+- we have windows domain that is the entire bubble for the active directory and that domain is like the website domain
+  with a . in it also having subdomains we have that windows domain that is stored in a server called windows domain
+  server which becomes a domain controller and whoever is the the administrator of the server is the domain administrator
+  and the administrator of the entire active directory then in the domain we have multiple users devices computers and we
+  put them in organizational units in the form of objects so that we can apply a set of rules called group policies to
+  them we use ad for a broader network of devices or users and we use compmgmt for a single computer management
