@@ -115,3 +115,14 @@
   shows comments in the crontab
 - for package management or software downloads we use apt advanced package tool for searching downloading and
   updating the packages and tools in the machine
+- GUI graphical user interace that lets us use the softwares and applications on our system effortlessly
+  in order to connect to a remote desktop turn on the rdp on remote machine setting - system - remote desktop
+  then get the ip from the remote machine and also the account username anad password and the either use the
+  dialogue box for remote desktop connection type mstsc or use cmd
+  ```bash
+  mstsc /v:ipaddress
+  ```
+- we have NTFS new technology file system that brings new features like encryption larger file holding faster
+  file and folder permissions that FAT and HPFS high performance file system did not brought in the c directory
+  we have windows folder that holds the windows operating system and in that folder we have a critical most
+  important folder called system32 folder 
