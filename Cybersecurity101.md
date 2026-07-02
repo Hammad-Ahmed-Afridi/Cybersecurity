@@ -131,3 +131,4 @@
   account control just open dialogue box and type useraccountcontrolsettings and just move the pointer to which
   security you want for checking performance of the system and check the apps running and also check about cpu ram
   we use task manager and the dialogue box prompt is taskmgr
+- for opening absolutely every feature like the oned mentioned above we can use MSconfig in cmd or dialogue box
