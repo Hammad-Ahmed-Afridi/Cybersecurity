@@ -132,3 +132,11 @@
   security you want for checking performance of the system and check the apps running and also check about cpu ram
   we use task manager and the dialogue box prompt is taskmgr
 - for opening absolutely every feature like the oned mentioned above we can use MSconfig in cmd or dialogue box
+  windows update windows defender firewall windows security virus and threat protection we have bitlocker that is
+  used for full drive encryption and file encryptions as well and the uses sysmetric encrytion and then the keys are
+  stored in tpm trusted platform module which is a hardware device that actually checks for anomalies in the hardware
+  before booting up like first we turn on the power button the uefi/bios turn on the hardware and then tpm checks for
+  anomalies if not found it gives away the encryption decryption keys so that the folders or files can be decrypted
+  that were done by bitlocker the keys are handed over to cpu and when decryption of the main folder occurs like the
+  wiindows folder the other happens as we go the then os kernel takes control booting up the os itself and then it lets
+  users interact with software and applications using hardware
