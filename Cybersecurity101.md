@@ -156,5 +156,11 @@
   authenticating server and then the server responds with tgt ticket granting ticket and that tgt is used by the host whenever
   using a service like when using a service on his system instead of again typing in username and password for the service
   like he did for log in signup what happen sis the tgt + the service is sent to tgs ticket granting server and then it hands
-  over the ticket to the host and that ticket is then used for accessing the services
-- 
+  over the ticket to the host and that ticket is then used for accessing the services NTLM got rolled out because it does not
+  do mutual authentication as kerberos do and the host blindly trusts the server
+- we have domains as discussed earlier than if we have multiple subdomain for a single domain we have a tree for it like under
+  a domain tree we have subdomains like a main domain that is domain.com and then we have two subdomains servers and 2 ads
+  first.doimain.com and second.domain.com each one has its own domain controller and both of them are controlled by a single
+  domain controller then we have forests that is if we have multiple domains like domain.com and hello.com these when connected
+  to a single administrator forms a forest and as both are on different domain in a forest they need to have a trust relationship
+  whether that is one way or two way so that both the domains can get use and access the other domain services 
