@@ -146,3 +146,15 @@
   and the administrator of the entire active directory then in the domain we have multiple users devices computers and we
   put them in organizational units in the form of objects so that we can apply a set of rules called group policies to
   them we use ad for a broader network of devices or users and we use compmgmt for a single computer management
+- we use delegation to give some users access over other ous so that they can control them or help them like IT people
+  helping other users for system errors changing passwords
+- for creating and managing group poicies we use group policy managemnet becasue we can not use active directory for this
+  and then drag that specific policy in gpo to the desired ou
+- for authentication over active directory we use kerberos and ntlm for sso ntlm is outdated the new method is kerberos
+  kerberos is like this first the user logs in his system and then what happens is the password is not forwarded what happens
+  is the username is sent and the timestamp is encrypted using the key derived from the password and then it is sent to AS
+  authenticating server and then the server responds with tgt ticket granting ticket and that tgt is used by the host whenever
+  using a service like when using a service on his system instead of again typing in username and password for the service
+  like he did for log in signup what happen sis the tgt + the service is sent to tgs ticket granting server and then it hands
+  over the ticket to the host and that ticket is then used for accessing the services
+- 
