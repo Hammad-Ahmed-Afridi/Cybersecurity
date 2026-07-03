@@ -181,10 +181,10 @@ process running and pids we use tasklist the command to shutdown pc shutdown /s 
   so that we can use two commands together like first one does the operation and the second one does the operation
   on the output and it done by using the | symbol get-childitem | where-object -property length -eq 100 where eq
   means equals to also we can use ne lt le gt ge get-computerinfo get-localuser get-netipaddress
-- we can rdp to a windows or ubuntu when xrdp is installed on linux using the mstsc command in windows and when 
-connecting from linux to windows we use the internel tool called remmina and then use rdp details to connect to 
-it also we can use ssh for all shells bash powershell or cmd also a command for ssh through a specific port 
-ssh -p 443 username@ipaddress
+- we can rdp to a windows or ubuntu when xrdp is installed on linux using the mstsc command in windows and when
+  connecting from linux to windows we use the internel tool called remmina and then use rdp details to connect to
+  it also we can use ssh for all shells bash powershell or cmd also a command for ssh through a specific port
+  ssh -p 443 username@ipaddress
 - scripting is basically a process in which we save commands in a file and then use them by using those files in the
   future for powershell we use the extension .ps1 and for bash we use .sh and for cmd we use .bat or .cmd
   for scripting in bash first create a file using nano than give executable permission using chmod +x then inside
