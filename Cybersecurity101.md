@@ -185,3 +185,9 @@ means equals to also we can use ne lt le gt ge get-computerinfo get-localuser ge
 connecting from linux to windows we use the internel tool called remmina and then use rdp details to connect to 
 it also we can use ssh for all shells bash powershell or cmd also a command for ssh through a specific port 
 ssh -p 443 username@ipaddress
+- scripting is basically a process in which we save commands in a file and then use them by using those files in the 
+future for powershell we use the extension .ps1 and for bash we use .sh and for cmd we use .bat or .cmd
+for scripting in bash first create a file using nano than give executable permission using chmod +x then inside 
+the file use she bang #!/bin/bash and then type commmands like echo then use the read name to input name from user
+then use if else like if["$name"="ali"]; then echo " " else echo " " fi and then in order to run it use ./filename
+also for using comments use #
