@@ -172,15 +172,15 @@ output to switch between cmd or powershell just type the one you want and press 
 a proper visual representation of directories in a path for making or removing a diorectory use mkdir and rmdir 
 for creating file use type nul > file.txt and for writiing use echo and for printing use type filename for 
 process running and pids we use tasklist the command to shutdown pc shutdown /s for restarting shutdown /r
-- powershell is a shell or cli that is object oriented that is built on .NET framework and the commands are known 
-as cmdlets command lets main cmdlets we have verb-noun combination like get-content for printing content 
-set-location for changing directories get-command for getting all the cmdlets for getting command that starts with 
-specific verb like we want to have remove commands we use get-command -name remove* get-help get-content will print the 
-properties and usage and help us in getting the grasp of get-content cmdlet or others then we have alias that is 
-when used it gives us the commands that we used in bash and give its alternative cmdlets get-alias we use pipping 
-so that we can use two commands together like first one does the operation and the second one does the operation 
-on the output and it done by using the | symbol get-childitem | where-object -property length -eq 100 where eq 
-means equals to also we can use ne lt le gt ge get-computerinfo get-localuser get-netipaddress
+- powershell is a shell or cli that is object oriented that is built on .NET framework and the commands are known
+  as cmdlets command lets main cmdlets we have verb-noun combination like get-content for printing content
+  set-location for changing directories get-command for getting all the cmdlets for getting command that starts with
+  specific verb like we want to have remove commands we use get-command -name remove* get-help get-content will print the
+  properties and usage and help us in getting the grasp of get-content cmdlet or others then we have alias that is
+  when used it gives us the commands that we used in bash and give its alternative cmdlets get-alias we use pipping
+  so that we can use two commands together like first one does the operation and the second one does the operation
+  on the output and it done by using the | symbol get-childitem | where-object -property length -eq 100 where eq
+  means equals to also we can use ne lt le gt ge get-computerinfo get-localuser get-netipaddress
 - we can rdp to a windows or ubuntu when xrdp is installed on linux using the mstsc command in windows and when 
 connecting from linux to windows we use the internel tool called remmina and then use rdp details to connect to 
 it also we can use ssh for all shells bash powershell or cmd also a command for ssh through a specific port 
