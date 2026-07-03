@@ -164,14 +164,14 @@
   domain controller then we have forests that is if we have multiple domains like domain.com and hello.com these when connected
   to a single administrator forms a forest and as both are on different domain in a forest they need to have a trust relationship
   whether that is one way or two way so that both the domains can get use and access the other domain services 
-- use the systeminfo in cmd for system details for getting help we can use the help command before the command 
-and use cls for clearing the screen for network we use ipconfig /all and for pinging a network to check for the 
-connection is up or not we use ping ipaddress or domian name tracert ipaddress traces the route that was used to 
-reach the destination we use netstat to check for current on going connections use netstat -abno for deatiled 
-output to switch between cmd or powershell just type the one you want and press enter use the tree command for 
-a proper visual representation of directories in a path for making or removing a diorectory use mkdir and rmdir 
-for creating file use type nul > file.txt and for writiing use echo and for printing use type filename for 
-process running and pids we use tasklist the command to shutdown pc shutdown /s for restarting shutdown /r
+- use the systeminfo in cmd for system details for getting help we can use the help command before the command
+  and use cls for clearing the screen for network we use ipconfig /all and for pinging a network to check for the
+  connection is up or not we use ping ipaddress or domian name tracert ipaddress traces the route that was used to
+  reach the destination we use netstat to check for current on going connections use netstat -abno for deatiled
+  output to switch between cmd or powershell just type the one you want and press enter use the tree command for
+  a proper visual representation of directories in a path for making or removing a diorectory use mkdir and rmdir
+  for creating file use type nul > file.txt and for writiing use echo and for printing use type filename for
+  process running and pids we use tasklist the command to shutdown pc shutdown /s for restarting shutdown /r
 - powershell is a shell or cli that is object oriented that is built on .NET framework and the commands are known
   as cmdlets command lets main cmdlets we have verb-noun combination like get-content for printing content
   set-location for changing directories get-command for getting all the cmdlets for getting command that starts with
