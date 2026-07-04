@@ -38,6 +38,10 @@
   password and then the actions will be performed for the local user
 - now some bash commands
   ``` bash
+  systeminfo // in cmd for system details
+  help // we can use the help command before the command
+  cls // for clearing the screen
+  ipconfig /all  // for network related details 
   echo hello world  // give us the output on the screen
   whoami  // tells us about the current user
   ls  // lists all the files and directories in the current folder
@@ -164,8 +168,7 @@
   domain controller then we have forests that is if we have multiple domains like domain.com and hello.com these when connected
   to a single administrator forms a forest and as both are on different domain in a forest they need to have a trust relationship
   whether that is one way or two way so that both the domains can get use and access the other domain services 
-- use the systeminfo in cmd for system details for getting help we can use the help command before the command
-  and use cls for clearing the screen for network we use ipconfig /all and for pinging a network to check for the
+-  and for pinging a network to check for the
   connection is up or not we use ping ipaddress or domian name tracert ipaddress traces the route that was used to
   reach the destination we use netstat to check for current on going connections use netstat -abno for deatiled
   output to switch between cmd or powershell just type the one you want and press enter use the tree command for
