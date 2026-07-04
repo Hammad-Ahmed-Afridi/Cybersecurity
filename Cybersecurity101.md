@@ -43,7 +43,8 @@
   cls  // for clearing the screen
   ipconfig /all  // for network related details
   ping domain or ipaddress  // for pinging a network to check the connection
-  tracert ipaddress  // traces the route that was used to reach the destination 
+  tracert ipaddress  // traces the route that was used to reach the destination
+  netstat -abno  // for deatiled output related to connections
   echo hello world  // give us the output on the screen
   whoami  // tells us about the current user
   ls  // lists all the files and directories in the current folder
@@ -170,8 +171,7 @@
   domain controller then we have forests that is if we have multiple domains like domain.com and hello.com these when connected
   to a single administrator forms a forest and as both are on different domain in a forest they need to have a trust relationship
   whether that is one way or two way so that both the domains can get use and access the other domain services 
-- we use netstat to check for current on going connections use netstat -abno for deatiled
-  output to switch between cmd or powershell just type the one you want and press enter use the tree command for
+- to switch between cmd or powershell just type the one you want and press enter use the tree command for
   a proper visual representation of directories in a path for making or removing a diorectory use mkdir and rmdir
   for creating file use type nul > file.txt and for writiing use echo and for printing use type filename for
   process running and pids we use tasklist the command to shutdown pc shutdown /s for restarting shutdown /r
