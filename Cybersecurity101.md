@@ -199,4 +199,15 @@
   seven layers layer 7 is application than we have presentation than session than transport than network than datalink
   and than physical when we go from layer 7 to layer 1 we have encapsulation happening that is packets are covered in
   envelops and in each layer we have extra packets added on top of each other and in the data link layer we call the
-  packet frame which is the exception 
+  packet frame which is the exception and when we move from layer 1 to 7 decapsulation occurs 
+- layer 7 is the layer we use like the interface which allows us to interact with the digital world this layer deals with
+  protocols like http ftp dns smtp than we have presenation layer that makes our interaction and our inputs
+  understandable to the devices on the network that is it converts it into machine readable like its use ascii or unicode
+  than we have session layer that creates manages and destroys session between devices on a network and than we have
+  transport layer that uses the session to transport the packets to the desired destination and the protocols used are
+  tcp and udp and than we have network layer that transports or delivers the packets to devices on different networks connected
+  using routers they use ip addresses and the protocols used are ICMP OSPF and RIP than we have data link layer that deals
+  with packets called frames and this layer sends frames using switch between devices on the same network using mac addresses
+  than we have physical layer that deals with physical connections like wires ethernet cables or wifi ethernet cables include
+  cat 5 cat 6 cat 7 cat 8 and the thing that is connected to the end of it is called registered jack RJ 45 and we have two types
+  of cables straight through and crossover cables straight are for different devices and crossover are for same devices 
