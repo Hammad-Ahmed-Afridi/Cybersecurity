@@ -224,4 +224,23 @@
   it do create different vlans like subnets one is 192.168.1.0 and the othe ris 192.168.2.0 and then connect both these vlans to a
   single switch and in order for them to communicate to each other and to the outside network we use a router and connect that single
   switch to a router and we can reduce the number of devices by taking out the router and use a layer 3 switch instead
-- 
+- we use private ip address for local network devices that is each device on the local network gets a private ip and that local network
+  when connected to a router gets a public ip to use the internet that public ip is of router and the router use NAT to let the private
+  ips use a single public ip but lets say we do not have a router connected to the switch what happens is the ip addresses get assigned
+  automatically so that the devices could communicate to each other but they can not communicate to the internet
+- DHCP dynamic host congiguration protocol uses DHCP server to assign an ip to a device on a network it is a series of four steps
+  that is DHCP discover that is a packet sent by the device using the ip address 0.0.0.0 to the broadcast address 255.255.255.255 to
+  discover a DHCP server on the network than the serevr responds using a DHCP offer offering a ip address than the device sends a DHCP
+  requuest for requesting the usage of the ip address and than the server responds by DHCP acknowledge and then the ip address is used
+  by the device the process is DORA discover offer response acknowledge and we use the DHCP server for gaining both the public and private
+  ips one server is local one and the other one is internet service provider owned
+- ARP address resolution protocol is a protocol used for getting trth emac address of a device of which only the ip is known what happens is
+  when two devices are connected in a network they get ips from dhcp server but in order to communicate between each other they must know
+  each other mac addresses so in order to know the mac of the destination device the sourse device sends a arp request packet on a broadcast
+  mac address ff:ff:ff:ff:ff:ff to the entire network stating which mac address has the known ip address the ip address is know like
+  192.168.1.1 and then the device that has that ip sends an ARP reply stating that i am the device that has ip 192.168.1.1 and have this mac
+  address and this information gets stored in a table called arp tables 
+- icmp is used for network trouble shooting this is used by ping commad that we use with an ip address for checking whether a device on a
+  network is responding or not
+- NAT network address translation is a process used by routers for masking the private ips of devices on a network and allowing them to
+  use a single public ip for internet or communication outside the network 
