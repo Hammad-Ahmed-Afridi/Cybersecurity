@@ -203,7 +203,7 @@
 - layer 7 is the layer we use like the interface which allows us to interact with the digital world this layer deals with
   protocols like http ftp dns smtp than we have presenation layer that makes our interaction and our inputs
   understandable to the devices on the network that is it converts it into machine readable like its use ascii or unicode
-  than we have session layer that creates manages and destroys session between devices on a network and than we have
+  than we have session layer that creates manages and destroys session between devices on a network ssh or telnet and than we have
   transport layer that uses the session to transport the packets to the desired destination and the protocols used are
   tcp and udp and than we have network layer that transports or delivers the packets to devices on different networks connected
   using routers they use ip addresses and the protocols used are ICMP OSPF and RIP than we have data link layer that deals
@@ -211,3 +211,17 @@
   than we have physical layer that deals with physical connections like wires ethernet cables or wifi ethernet cables include
   cat 5 cat 6 cat 7 cat 8 and the thing that is connected to the end of it is called registered jack RJ 45 and we have two types
   of cables straight through and crossover cables straight are for different devices and crossover are for same devices 
+- than we have tcp/ip model developed by us dod and it is a practicel model consisting of 4 layers application layer is the forth
+  than the transport layer and the the network layer and than the data link layer we also for conviniece use five layers
+  that is application transport network datalink and physical
+- we have subnetting that is deviding an existing network in to multiple smaller networks called subnet and these subnets are called
+  vlans virtual local area network we have a subnet mask for 192.168.1.0 is 255.255.255.0 that is also denoted by /24 at the end of
+  ip address what this shows is that we can create a subnet on the network 192.168.1.0 ranging from 1-254 bacause these are usable ips
+  and in these numbers the ip address 192.168.1.1 is the deafault gateway that is the address used by the router to connect to the
+  outside network and ip address 192.168.1.255 is the broadcast address that is this address is used bu the router for sendding
+  packets to the entire network devices such that im ARP subnetting happens at the switch level that is layer 2 and a router is
+  required or at layer 3 switch where no router is required for subnetting what we do is first we take a single layer 2 switch use
+  it do create different vlans like subnets one is 192.168.1.0 and the othe ris 192.168.2.0 and then connect both these vlans to a
+  single switch and in order for them to communicate to each other and to the outside network we use a router and connect that single
+  switch to a router and we can reduce the number of devices by taking out the router and use a layer 3 switch instead
+- 
