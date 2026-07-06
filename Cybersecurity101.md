@@ -194,3 +194,9 @@
   the file use she bang #!/bin/bash and then type commmands like echo then use the read name to input name from user
   then use if else like if["$name"="ali"]; then echo " " else echo " " fi and then in order to run it use ./filename
   also for using comments use #
+- OSI model stands for open system interconnection is a conceptual model developed by international organization for
+  standardization it tells us hwo packets move from one device to another in a network that is internet we have
+  seven layers layer 7 is application than we have presentation than session than transport than network than datalink
+  and than physical when we go from layer 7 to layer 1 we have encapsulation happening that is packets are covered in
+  envelops and in each layer we have extra packets added on top of each other and in the data link layer we call the
+  packet frame which is the exception 
