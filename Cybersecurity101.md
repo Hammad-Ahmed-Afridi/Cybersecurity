@@ -258,4 +258,9 @@
   was a hash for actual authentication and whenever the intermediate ca is not matched it then goes up teh chain of root ca to check and match
   its certificate this whole process is called chain of trust and the certificate attaining process is called certificate issuence and the
   authentication process is basically decryption and hashing process 
-- 
+- nowadays we use https which uses tls certificate for secure encrypted communication over tcp port 443 and we can check this by running wireshark
+  and whenever a certain website is visited first we will have the tcp 3 way handshake with the server and then it will establish a tls
+  connection and then whatever is sent over the connection will be encrypted and when we open a certain paccket it will be gibberish text like
+  we wont know what is written some important https request are get post put delete
+- for most of the time for our convinience we can say in most of the protocols if s is behind it it means it is using ssh like sftp and when it is
+  at the suffix position it means it uses ssl like https smtps ftps pop3s 
