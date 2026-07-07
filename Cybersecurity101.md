@@ -244,3 +244,14 @@
   network is responding or not
 - NAT network address translation is a process used by routers for masking the private ips of devices on a network and allowing them to
   use a single public ip for internet or communication outside the network 
+- we use ssl/tls secure socket layer or transport layer security for secure encrypted communication over the internet and we use digital
+  certificates issued by certifing authorities cas to authenticate ourselves or are used by the servers to authenticate themselves
+  when accessing the web or web apps we can not every time use our login credentials to authenticate ourselves so what happens is that our
+  browser has a certificate store that has all the signed certificates of the root cas so what happens is when we make request the server
+  sends its own certificate which is signed by the certifying authority and when that certificate reaches the browser the browser checks the
+  signature and when matched the resource is accessed and used
+- when the certificate is to be issued what happens is the server requests the ca for a certificate and that certificate gets stored in the
+  certificate database with its own ttl and also when in usage the client sends its ca to a device and then that device uses the public key
+  of that ca that has given the certificate and decrypts the signature and when the signature matches the signature in the local trust store
+  its authenticates it because the machine trusts what ca trusts
+- 
