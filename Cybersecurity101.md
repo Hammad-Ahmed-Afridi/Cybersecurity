@@ -264,3 +264,7 @@
   we wont know what is written some important https request are get post put delete
 - for most of the time for our convinience we can say in most of the protocols if s is behind it it means it is using ssh like sftp and when it is
   at the suffix position it means it uses ssl like https smtps ftps pop3s 
+- wireshark tool you can learn it from youtube by taking a short crash course it is so easy to grasp as you have the knowledge for it and all
+  the things mentioned above and the things that you will be seeing in that tools basically that tool gives to packets that are travelling over
+  the network its has all the details like the protocols used ports used sequences packet body which is mostly encrypted if the protocol used
+  is the secure one the ssl tls one 
