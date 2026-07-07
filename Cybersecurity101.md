@@ -253,5 +253,8 @@
 - when the certificate is to be issued what happens is the server requests the ca for a certificate and that certificate gets stored in the
   certificate database with its own ttl and also when in usage the client sends its ca to a device and then that device uses the public key
   of that ca that has given the certificate and decrypts the signature and when the signature matches the signature in the local trust store
-  its authenticates it because the machine trusts what ca trusts
+  its authenticates it because the machine trusts what ca trusts the decryotion is done the output is a hash and also when the client browser
+  does the hashing to the certificate of that ca in its own trust store and hash it and then match for actual authentication and whenever the
+  intermediate ca is not matched it then goes up teh chain of root ca to check and match its certificate this whole process is called chain of
+  trust and the certificate attaining process is called certificate issuence 
 - 
