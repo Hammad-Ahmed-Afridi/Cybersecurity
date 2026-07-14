@@ -297,4 +297,5 @@
   nmap -p 22,80,443 192.168.66.0/24  // for specific port scans we can also specify the ports from 1-65535 after -p
   nmap -sT 192.168.66.0/24  /// for tcp ports
   nmap -sU ip  // for udp ports
+  nmap -sS -sV -O 192.168.124.211  // we use sv for service and version detection and o for os detection
   ```
