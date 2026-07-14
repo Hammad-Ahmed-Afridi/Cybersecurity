@@ -299,3 +299,10 @@
   nmap -sU ip  // for udp ports
   nmap -sS -sV -O 192.168.124.211  // we use sv for service and version detection and o for os detection
   ```
+- cryptography is basically scrambling data using an alogorithm so that its confidentiality is maintained and also the scrambled data is
+  called cipher text and in order to read it again we can use a key to bring it back to readable format this process is called encryption
+  and decryption historic ciphers include ceasar cipher which shifts the text letters using the key as the base than we have rot 13 also we have
+  transposition cipher which inncludes keyless and keyed ciphers and vigenere cipher we have two types of encryptions that are symmetric and
+  asymmetric encryption symmetric encryption uses a single key for both encryption and is also called private key cryptography or encryption and
+  asymmetric ecryption uses public and private key for cryptography public key and private key public key used for encryption and private key for
+  decryption and is called public key cryptography 
