@@ -53,7 +53,8 @@
   cd ..  // goes back one directory
   cat filename  // outpust the text in the file on the screen
   pwd  // prints working directory or current directory
-  find -name filename.txt  // finding the file in a directory
+  find -iname "filename.txt"  // finding the file in a directory and i is for ignoring the case of the alphabets
+  find / -name "filename.txt"  // finding the file in teh entire system / stands for root
   find -name *.txt  // the wildcard is used for finding all the files with the .txt extension
   find . -type d -name "directory name"  //  . for searching within active directory or ~ for home directory or / for root directory
   touch filname  // to create a file
