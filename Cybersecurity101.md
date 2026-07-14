@@ -268,4 +268,9 @@
   the things mentioned above and the things that you will be seeing in that tools basically that tool gives to packets that are travelling over
   the network its has all the details like the protocols used ports used sequences packet body which is mostly encrypted if the protocol used
   is the secure one the ssl tls one we can save the wireshark packets captured as a file having the extenssion or format as .pcapng that stands
-  for packet capture next generation or .pcap
+  for packet capture next generation or .pcap we can use wireshark to capture real time traffic by running the blue shark fin button or use the
+  packets capture saved file we can view the packet details by just clicking the single packet and we will get the details like protocols prots
+  ips macs headers body and the encrypted text which is encoded also we can go to specific packets by putting in the packet number in the
+  go search bar we can also find the desired packets by name as well we can also use filters by just filtering tem in the filter search box from
+  names ips protocols or other things and we will get the desired filter output only ignoring the rest and all these features are at the top
+  of the wireshark gui we can also apply colours to packets for our ease of use which will show us the problems false positives critical etc
