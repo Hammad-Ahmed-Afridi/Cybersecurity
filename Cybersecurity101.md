@@ -274,3 +274,17 @@
   go search bar we can also find the desired packets by name as well we can also use filters by just filtering tem in the filter search box from
   names ips protocols or other things and we will get the desired filter output only ignoring the rest and all these features are at the top
   of the wireshark gui we can also apply colours to packets for our ease of use which will show us the problems false positives critical etc
+- as mentioned earlier wireshark is a gui tool and most of the systems in servers and clouds dont support gui so we need a tool to capture and
+- analyze packets and asve them so that we can view them in wireshark after that in the form of .pcap files we can use the command
+  ```bash
+  tcpdump -i ens5 -c 5 -n
+  ```
+  here the i stands for the interface and c stands for the number of packets to be captures and what n does is it do not let domains and ports to
+  resolved in simpe readable text like we want actual ips not domains names of servers or systems for more detailed output we can add -v at the end
+  we can also apply filters in the form of host filters port or protocol filters and also we can read and write .pcap files in it
+  ```bash
+  tcpdump host example.com -w http.pcap
+  tcpdump -i ens5 port 53 -n
+  tcpdump -i ens5 icmp -n
+  tcpdump -r TwoPackets.pcap
+  ```
