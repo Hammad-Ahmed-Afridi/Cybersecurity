@@ -289,3 +289,12 @@
   tcpdump -i ens5 icmp -n
   tcpdump -r TwoPackets.pcap
   ```
+- nmap is a tool used for scanning the network for live hosts for open ports and many other services bash commands
+  ```bash
+  nmap -sn 192.168.66.0/24  // for scanning the entire subnet
+  nmap -sn 192.168.66.0  // for scanning the single ip
+  nmap 192.168.66.0/24  // for scanning 1000 most common ports on the entire network
+  nmap -p 22,80,443 192.168.66.0/24  // for specific port scans we can also specify the ports from 1-65535 after -p
+  nmap -sT 192.168.66.0/24  /// for tcp ports
+  nmap -sU ip  // for udp ports
+  ```
