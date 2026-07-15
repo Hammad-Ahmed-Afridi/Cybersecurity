@@ -320,3 +320,10 @@
   file and then use john the ripper or hashcat and use a wordlist like rockyou.txt which contains the most common passwords each hash tells us
   what algorithm is used what salt is used and what is the actual hash and each segment is seperted by a $ sign we have different hash functions
   like sha1 sha256 sha512 yescrypt bescrypt 
+- we have a tool called metasploit that checks a system or a network against known vulnerabilities and also for confirmation create and execute
+  exploits for accessing and using the vulnerabilites and then using payloads for further actions let us say i have a server in my home lab or
+  in the network i want to check it against known server vulnerabilities i will first check the open ports or services running on it by using nmap
+  and its ip address nmap -sV 192.168.1.X we can use the nmap inside the metasploit frameword we can run the framework by just typing msfconsole
+  as we have discovered teh services and ports on the server we can use teh metasploit for finding specific vulnerabilties realated to the service
+  running then use that to scan against it and check if the service or server is vulnerable or not and if yes we use the msfvenom which is
+  metasploit meterpreter to develop an exploit and use the payload for a complete attack and control 
