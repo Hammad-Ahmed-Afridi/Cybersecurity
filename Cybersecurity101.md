@@ -306,3 +306,15 @@
   asymmetric encryption symmetric encryption uses a single key for both encryption and is also called private key cryptography or encryption and
   examples include AES DES BLOWFISH asymmetric ecryption uses public and private key for cryptography public key and private key public key used
   for encryption and private key for decryption and is called public key cryptography examples include RSA DSA DEFFIE HELLMAN ECC 
+- hashing is used for checking data integrity and data realness hashing is used for storing passwords as passwords can not be stored in raw form
+  in databases so first they are hashed and then they are stored and whenever user inputs password it get hashed and then it is matched with the
+  stored hash and if they match the user is authenticated but now adays due to attacks where hashes are brute forced using rainbow tables salting
+  is used in which a salt that is a random string is added to the password and then it is hashed and stored so that the password can not be
+  guessed in this way even if the password is in the rainbow table and is also guessed the attacker can not get autheticated bbecasue of the salt
+  it changed the hash completely and this is a property of hashing that a small change in input can cause a very large change in output and this
+  is called avalanche effect now discussing about file integrity hashing is also used their when we download something from the internet what
+  happens is that the website give us a hash of the original file so that we could check against it by hashing the downloaded file on our own
+  system if the hashes dont match we will get to know that their was some sort of tempering done to the file and it is not secure we can not reverse
+  a hash we can just guess the real password and hash it and then match it to the hash and this is done using tools like john the ripper or hashcat
+  in linux password hashes are stored in /etc/shadow file and each hash tells us what algorithm is used what salt is used and what is the actual
+  hash and each segment is seperted by a $ sign we have different hash functions like sha1 sha256 sha512 yescrypt bescrypt 
