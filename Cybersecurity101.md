@@ -316,5 +316,7 @@
   happens is that the website give us a hash of the original file so that we could check against it by hashing the downloaded file on our own
   system if the hashes dont match we will get to know that their was some sort of tempering done to the file and it is not secure we can not reverse
   a hash we can just guess the real password and hash it and then match it to the hash and this is done using tools like john the ripper or hashcat
-  in linux password hashes are stored in /etc/shadow file and each hash tells us what algorithm is used what salt is used and what is the actual
-  hash and each segment is seperted by a $ sign we have different hash functions like sha1 sha256 sha512 yescrypt bescrypt 
+  in linux password hashes are stored in /etc/shadow file and for cracking them first we have to unshadow them using the unshadow command in a .txt
+  file and then use john the ripper or hashcat and use a wordlist like rockyou.txt which contains the most common passwords each hash tells us
+  what algorithm is used what salt is used and what is the actual hash and each segment is seperted by a $ sign we have different hash functions
+  like sha1 sha256 sha512 yescrypt bescrypt 
