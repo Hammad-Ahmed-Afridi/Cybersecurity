@@ -84,6 +84,7 @@
   apt install toolname
   apt remove toolname
   apt purge toolname
+  sha256sum filename.txt  // for hashing a file 
   ```
 - we use & and then the command to make the process run in the background and use fg to make the
   background processes come in the foregroud also we use && to type multiple commands in a single
@@ -416,4 +417,12 @@
   CVE - 2024 - 68492 also we have a CVSS common vulnwrabilty scoring system which tells us about the severity of the vulnerabilty 
 - cyberchef is the cybersecurity swiss army knife it is browser based tool that has many features like ecryption decryption for different
   algos hashing using differnet hash algos encoding decoding using differnt bases annd many more tools like obfuscation etc
-- s
+- CAPA common analysis platform for artifact is a tools used for analysis static or dynamic in static analysis the artifact that is a file
+  analysis is done without running or executing it and dynamic analysis is done using running or executing the artifact for running
+  capa on a certain file we use the command
+  ```
+  capa.exe filename
+  ```
+  this will give all the data related to file like hashes os path it will also give us ATTACK which is attack tactics techniques and common
+  knowledge which is a frame work provided by MITRE corp which gives us details about the attacks taht happened how they were performed all
+  the techniques used by the adversary
