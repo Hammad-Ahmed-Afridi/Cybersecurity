@@ -349,3 +349,6 @@
   SELECT and then use FROM and then type the table name for example SELECT * FROM tablename; and if we want to be specific we can use
   SELECT coloumnname FROM tablename; for updating a record in the table we use the update command for example UPDATE tableaneme and the use the rest
   of the command; for deleting something we use DELETE FROM tableanem and the use the rest of the commands; 
+- burpsuite is a tool used for web pentesting it sits as a proxy between a browser and web server and captures every packet and allows us to alter
+  them according to our needs and also allow us to perform attacks on the website or webserver like xss sql inject xsrf authentication bypass and
+  other attacks as well it is a gui tool that is used to find vulnerabilities in a website and exploit them 
