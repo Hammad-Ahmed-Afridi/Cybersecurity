@@ -396,3 +396,14 @@
   enabel disable rules or firewll as a whole whenever we are creating a rule in firewall we always need the source ip destination ip port
   portocol action like allow deny forward and at last the direction like inbound or outbound inbound is the traffic that is comming in the
   network and outbounnd is the traffic that is going out of the network 
+- IDS intrusion detection system basically datects intrusions in a network or a system firewalls are for monitoring the tgraffic going in and out
+  but what if the attacker or malacious packet gets past the firewall so their must be some sort of way to detect this intrusion and for this we
+  use IDS their are two types of IDS network based NIDS and host based HIDS and the detection is of two types signature based and anomaly based
+  in signature based IDS the device has all the signatures of malicious packets and viruses malwares that exist signatures are strings that
+  define a certain virus or malware but these IDS are not good against zero day attacks so we use anomaly based IDS which checks and trains itself
+  by looking at normal network connections and network working and when a small change happens it detects it and in modern times hybrid IDS are
+  used we haev an open source IDS called snort it is a hybrid tool and it has pre built rues in it and we can also add custom rules as well
+  we can add rules in /etc/snort and use following command in cli
+  ```
+  alert icmp any any -> 127.0.0.1 any (msg:"Loopback Ping Detected"; sid:10003; rev:1;)
+  ```
