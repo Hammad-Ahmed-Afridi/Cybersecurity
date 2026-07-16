@@ -352,3 +352,5 @@
 - burpsuite is a tool used for web pentesting it sits as a proxy between a browser and web server and captures every packet and allows us to alter
   them according to our needs and also allow us to perform attacks on the website or webserver like xss sql inject xsrf authentication bypass and
   other attacks as well it is a gui tool that is used to find vulnerabilities in a website and exploit them 
+- Hydra John the Ripper and Hashcat are industry-standard tools. Hydra is for online brute-forcing testing live login pages/services) while John
+  the Ripper and Hashcat are for offline cracking recovering plaintext from stolen or extracted password hashes
