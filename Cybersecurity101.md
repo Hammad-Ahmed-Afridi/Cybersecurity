@@ -386,4 +386,13 @@
   tools like forwarders or agents we can also manually add logs in the siem solution and what it does is correlats logs find patterns and helps in
   alert triaging as in modern times ai is also implemented for more accurate alerts and for more complex relations in siem solution alerts
   are generated when a specific rule is violated these rules are created by security engineers and their are two types of alerts false positives and
-  true positives 
+  true positives
+- firewall are either hardware devices or software that monitors the inbound and outbound traffic and allow or deny them using rules created
+  their are types of firewalls like stateless and statefull and proxy and next generation firewall stateless firewall just allows or blocks
+  packets based on rules but do not keep the state of connections statefull firewalls allow and block based on rules as well as keep state of
+  connections that are stable or unstable and allow or block connections as well then we have next generation firewalls that are quite complex
+  in terms of security and also quite useful in bigger infrastructure in windows we have windows defender firewall and in linux we have uncomplicated
+  firewall in windows we can simple use it using the gui but in linux we haev to use it in cli we can allow deny connections to certain ports
+  enabel disable rules or firewll as a whole whenever we are creating a rule in firewall we always need the source ip destination ip port
+  portocol action like allow deny forward and at last the direction like inbound or outbound inbound is the traffic that is comming in the
+  network and outbounnd is the traffic that is going out of the network 
