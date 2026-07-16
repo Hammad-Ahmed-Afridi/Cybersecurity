@@ -343,4 +343,9 @@
   a databse we have to create tables in it for storing content that are related as it is a relational database "CREATE TABLE tablename (
   example_column1 data_type, example_column2 data_type, example_column3 data_type);" for checking different tables in a databse we use "SHOW TABES;"
   and if we want to get a look at the table we created we use the "DESCRIBE tablename;" if we want to alter a table like adding or deleting something
-  we use "ALTER TABEL tablename and then use a specific command after that;" and then for dropping that we use "DROP TABLE tablename;" 
+  we use "ALTER TABEL tablename and then use a specific command after that;" and then for dropping that we use "DROP TABLE tablename;" now as the
+  databse and tables are created we have to perfoem crud operation create read update delete for creatig new record in the table we use INSERT INTO
+  command and then tyep the rest of the command for reading we use SELECT and if we want to select everything like read everything we use * after
+  SELECT and then use FROM and then type the table name for example SELECT * FROM tablename; and if we want to be specific we can use
+  SELECT coloumnname FROM tablename; for updating a record in the table we use the update command for example UPDATE tableaneme and the use the rest
+  of the command; for deleting something we use DELETE FROM tableanem and the use the rest of the commands; 
