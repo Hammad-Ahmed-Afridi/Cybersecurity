@@ -336,4 +336,11 @@
   browser we are always requesting resources from teh web server and teh server is responding and this is called http request and response and
   in these messaeges we have header and body which contains many type on info which is easy to guess their are also status codes when we deal
   with websites like 404 page not found 200 ok and 500 server error
-- 
+- stuctured query language is a language used to create read update delete and perform crud and other operations on a relational database
+  first of all we have to run my sql in cli using the command "mysql -u root -p " u for user that is root and p for password in order
+  to create a database we use "CREATE DATABASE databsename;" in order to look at all the created databses we use "SHOW DATABASES;" in order to
+  use a specific database we use "USE databsesname;" and if we no longer need a databse we use "DROP DATABASE databasename;" as we have created
+  a databse we have to create tables in it for storing content that are related as it is a relational database "CREATE TABLE tablename (
+  example_column1 data_type, example_column2 data_type, example_column3 data_type);" for checking different tables in a databse we use "SHOW TABES;"
+  and if we want to get a look at the table we created we use the "DESCRIBE tablename;" if we want to alter a table like adding or deleting something
+  we use "ALTER TABEL tablename and then use a specific command after that;" and then for dropping that we use "DROP TABLE tablename;" 
