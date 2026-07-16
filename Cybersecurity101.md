@@ -407,3 +407,10 @@
   ```
   alert icmp any any -> 127.0.0.1 any (msg:"Loopback Ping Detected"; sid:10003; rev:1;)
   ```
+- vulnerabilties are weeknesses or gaps or flaws in a system or network or software that can be exploited by a threat actor and this can be
+  prevented by patching it or by updating or disabling usused services it we can perform these scans internally from inside the network or
+  externally from outside the network authenticated or unauthenticated their are many tools for vulnerability scan nessus qualys nexpose
+  openvas open vulnerabilty assessment system which is an open source vulnerabilty assessment tool openvas is a gui tool which is installed
+  first with its dependencies using docker and then run in browser and peroform the actions and it will show the vulnerabilities against
+  knows cve common vulnerabilities and enumerations cve number is given to every vulnerabilty with a year and random number in the form of
+  CVE - 2024 - 68492 also we have a CVSS common vulnwrabilty scoring system which tells us about the severity of the vulnerabilty 
