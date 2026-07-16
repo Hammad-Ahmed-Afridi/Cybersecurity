@@ -327,3 +327,13 @@
   as we have discovered teh services and ports on the server we can use teh metasploit for finding specific vulnerabilties realated to the service
   running then use that to scan against it and check if the service or server is vulnerable or not and if yes we use the msfvenom which is
   metasploit meterpreter to develop an exploit and use the payload for a complete attack and control 
+- we have websites and webapps that are opeened in browsers and we can interact with them made from html css javascript as frontend frameworks and
+  languages and for backend we use php python java javascript and fro databases we use sql or nosql databases the componenst of the websiet or
+  webapps are stored or deployed on a web server and also their are many other compinenets like cdn cache waf dns we can access resourses on the
+  browser or internet using urls uniform resource locater first it shows the protocol then the actual domain then port number then the path to that
+  specific resource then the queries strating from ? then the additional fragments we have different methods to interact with websites and webapps
+  like get post put and delete get fetches teh resource delete deletes it post adds new resouce and put updates the resource whatever we do on teh
+  browser we are always requesting resources from teh web server and teh server is responding and this is called http request and response and
+  in these messaeges we have header and body which contains many type on info which is easy to guess their are also status codes when we deal
+  with websites like 404 page not found 200 ok and 500 server error
+- 
