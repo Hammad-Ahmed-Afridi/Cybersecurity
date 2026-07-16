@@ -382,3 +382,8 @@
   action or any other action that can or is causing harm to the network or system is an incident and gets logged in the siem solution their are
   somme false positives which are ignored or removed but the true positives are teh ones that are focused on the actions that are followed by the
   soc team for prepariing and eleminating attack is basically a framework provided by SANS and NIST 
+- Siem security information and event management is a tool used for centralized log monitoring and alerting from different sources suign built in
+  tools like forwarders or agents we can also manually add logs in the siem solution and what it does is correlats logs find patterns and helps in
+  alert triaging as in modern times ai is also implemented for more accurate alerts and for more complex relations in siem solution alerts
+  are generated when a specific rule is violated these rules are created by security engineers and their are two types of alerts false positives and
+  true positives 
