@@ -375,4 +375,7 @@
   they also do forensics as well they consist of soc analyst l1 soc analyst l2 soc analyst l3 security engineer detectgion engineer and above them
   is the soc manager and then the ciso when ever the soc team is triaging alerts they answer these 5 question who what when where why the technology
   that is used in soc is siem security information and event management which is a tool that centralizes logs of different devices on the
-  organization network into a single interface 
+  organization network into a single interface and after the attack is contained and eradicated forensics is done how firstly all the logs are
+  gathered which are mere activities on the devices and then the relevent ones are seperated analyzed and then a report is created which containes
+  how the attack happened what vulnerabilty was their how was it exploited and how the attacker gained access and did lateral movements and did
+  privilage escalation and also recommend how to prevent such type of attack in the future 
