@@ -378,4 +378,7 @@
   organization network into a single interface and after the attack is contained and eradicated forensics is done how firstly all the logs are
   gathered which are mere activities on the devices and then the relevent ones are seperated analyzed and then a report is created which containes
   how the attack happened what vulnerabilty was their how was it exploited and how the attacker gained access and did lateral movements and did
-  privilage escalation and also recommend how to prevent such type of attack in the future 
+  privilage escalation and also recommend how to prevent such type of attack in the future the attacks are merely inciidents like every adversary
+  action or any other action that can or is causing harm to the network or system is an incident and gets logged in the siem solution their are
+  somme false positives which are ignored or removed but the true positives are teh ones that are focused on the actions that are followed by the
+  soc team for prepariing and eleminating attack is basically a framework provided by SANS and NIST 
