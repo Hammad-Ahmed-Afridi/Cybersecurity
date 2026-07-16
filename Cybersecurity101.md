@@ -414,3 +414,6 @@
   first with its dependencies using docker and then run in browser and peroform the actions and it will show the vulnerabilities against
   knows cve common vulnerabilities and enumerations cve number is given to every vulnerabilty with a year and random number in the form of
   CVE - 2024 - 68492 also we have a CVSS common vulnwrabilty scoring system which tells us about the severity of the vulnerabilty 
+- cyberchef is the cybersecurity swiss army knife it is browser based tool that has many features like ecryption decryption for different
+  algos hashing using differnet hash algos encoding decoding using differnt bases annd many more tools like obfuscation etc
+- s
