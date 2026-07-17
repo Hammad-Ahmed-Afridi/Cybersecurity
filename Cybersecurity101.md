@@ -426,7 +426,7 @@
   this will give all the data related to file like hashes os path it will also give us ATTACK which is attack tactics techniques and common
   knowledge which is a frame work provided by MITRE corp which gives us details about the attacks taht happened how they were performed all
   the techniques used by the adversary
-- security principles are frameworks that are created by organizations like nist or iso which are used by organizations to create their own security
+- security principles are frameworks that are created which then are used by organizations to create their own security
   policies so that their asserts could be protected nothing can be 100 percent secure or protected but the effort could be made to minimize the
   loss or attacks happening CIA triad confidentiality integrity availability we also have authentication and auditing/accountabilty and non
   repudiation the opposite of cia is DAD disclosure Alteration and Destruction/Denial we have some famous security models that are bell lapadula
