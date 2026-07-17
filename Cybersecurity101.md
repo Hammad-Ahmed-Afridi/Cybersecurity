@@ -443,3 +443,5 @@
   unneccessay services auditing or monitoring we have polp which is principle of least privilage that is granting access to resources so that
   the entity can perform just the actions it is allowed to do for completing the job not mmore that that and we have zero trust that is never trust
   always verify even the entities within an infrastructure 
+- vulnerabilties are weaknesses gaps or logical flaws in a system and threat is the actor that can exploit the vulnerabilty and risk is the
+  probability that the threat may exploit and take advantage of that vulnerabilty 
