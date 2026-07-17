@@ -426,3 +426,14 @@
   this will give all the data related to file like hashes os path it will also give us ATTACK which is attack tactics techniques and common
   knowledge which is a frame work provided by MITRE corp which gives us details about the attacks taht happened how they were performed all
   the techniques used by the adversary
+- security principles are frameworks that are created by organizations like nist or iso which are used by organizations to create their own security
+  policies so that their asserts could be protected nothing can be 100 percent secure or protected but the effort could be made to minimize the
+  loss or attacks happening CIA triad confidentiality integrity availability we also have authentication and auditing/accountabilty and non
+  repudiation the opposite of cia is DAD disclosure Alteration and Destruction/Denial we have some famous security models that are bell lapadula
+  model bibas model and clark wilson model in bell lapadula model we have three variations simple star and strong star in simple it is no read up
+  in star it is no write down and in strong star it is no read up no write down the security model has different security clearance levels and rules
+  are applied to them this model focuses on confidentiality then we have bibas model it also has three variations in simple we have no read down
+  in star we have write up and in strong star we have no read down write up for different security levels this model focuses on integrity and then
+  we have clark wilson model which focuses on integrity of data inn which their are two types of assets or data which can be accessed in two different
+  ways first one can be accesssed directly without any authentication authorization but the other secure type can be accessed by going through
+  different clearance levels and then allowed to access it 
