@@ -445,3 +445,6 @@
   always verify even the entities within an infrastructure 
 - vulnerabilties are weaknesses gaps or logical flaws in a system and threat is the actor that can exploit the vulnerabilty and risk is the
   probability that the threat may exploit and take advantage of that vulnerabilty 
+- Red team acts as an ethical hackers they use real world hacker tactics like phishing physical security breaches and malware emulation to uncover deep              vulnerabilities missed by standard engineering providing actionable data for VAPT (Vulnerability Assessment and Penetration Testing) reports blue
+  acts as the defender they design secure systems maintain security controls monitor network traffic for anomalies and actively respond to incidents
+  to mitigate both real and simulated attacks.
