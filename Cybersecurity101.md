@@ -437,3 +437,9 @@
   we have clark wilson model which focuses on integrity of data inn which their are two types of assets or data which can be accessed in two different
   ways first one can be accesssed directly without any authentication authorization but the other secure type can be accessed by going through
   different clearance levels and then allowed to access it 
+- Defence or security is not a single layer to be applied it is a series of steps and a series of layers to be implemented that will provide the
+  neccessary protection to the infrastructure and this is defence in depth whenever we are defending a system we have to keep these things in mind
+  that are authentication authorization access control non repudiation confidentiality integrity redunduncy least privilage patching removing
+  unneccessay services auditing or monitoring we have polp which is principle of least privilage that is granting access to resources so that
+  the entity can perform just the actions it is allowed to do for completing the job not mmore that that and we have zero trust that is never trust
+  always verify even the entities within an infrastructure 
