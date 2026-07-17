@@ -448,3 +448,9 @@
 - Red team acts as an ethical hackers they use real world hacker tactics like phishing physical security breaches and malware emulation to uncover deep              vulnerabilities missed by standard engineering providing actionable data for VAPT (Vulnerability Assessment and Penetration Testing) reports blue
   acts as the defender they design secure systems maintain security controls monitor network traffic for anomalies and actively respond to incidents
   to mitigate both real and simulated attacks.
+- owasp open worldwide application security platform is a security platform that has all info related to the most common vulnerabilties that are
+  out their that are exploited on day to day bases and should be patched when designing system or softwares we have owasp top 10 includes IAAA failure
+  identity authentication authorization and auditing and we take these for granted and vulnerabilties arise like authentication failures
+  logging and monitoring failures broken access control and these lead to getting an attacker authenticated and then without logging and monitoring
+  the attackers actions are not logged and are not visible during the attack and after the attack happens and dure to broken access control aattack
+  can acccess systems that require higher level security clearance and become privilaged users 
