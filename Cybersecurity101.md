@@ -460,4 +460,5 @@
   they can make the whole system get compromised as the system is depending on it and cryptographic failures do happen like the data that is being in
   transit or stored or used is not properly configured to use the advance encryption algos or use outdated ones or weak ones or not at all then attakers
   can steal it decrypt it and when the design is insecure the system will show things or parts that need to be actually hidden instead of being disclosed
-  
+  we also have injection attacks like sql injection in which attacker can exploit the input field by typing random characters and get authenticated as
+  a legitimate user he can also get the database spit out information that is stored in the table 
