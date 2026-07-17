@@ -453,4 +453,11 @@
   identity authentication authorization and auditing and we take these for granted and vulnerabilties arise like authentication failures
   logging and monitoring failures broken access control and these lead to getting an attacker authenticated and then without logging and monitoring
   the attackers actions are not logged and are not visible during the attack and after the attack happens and dure to broken access control aattack
-  can acccess systems that require higher level security clearance and become privilaged users 
+  can acccess systems that require higher level security clearance and become privilaged users then we have application design flaws that includes
+  insecure design software supply chain faiulures cryptographic failures and security misconfigurations in when creatign system certain security
+  actions that needs to be taken get ignored due to some reasons and the attacker can exploit that weakness and when in software or infrastruicture
+  development certaim libraries or dependencies are used and when they are not properly assessd and blindly trusted and when they contain a weakness
+  they can make the whole system get compromised as the system is depending on it and cryptographic failures do happen like the data that is being in
+  transit or stored or used is not properly configured to use the advance encryption algos or use outdated ones or weak ones or not at all then attakers
+  can steal it decrypt it and when the design is insecure the system will show things or parts that need to be actually hidden instead of being disclosed
+  
