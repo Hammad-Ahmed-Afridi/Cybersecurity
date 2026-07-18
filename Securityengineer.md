@@ -1,3 +1,4 @@
 # Try Hack Me
 ## Security Engineer
-  
+- A security engineer is a professional who creates secure systems and infrastructure, deploys solutions for further security, performs audits and compliance checks,   and creates information security policies. They keep security principles like the CIA triad, authentication, authorization, access control, non-repudiation,          logging, and monitoring in mind, as well as security frameworks like ISO 27001, NIST 800, and SOC 2, including governing laws and regulations like GDPR, HIPAA, and   PCI DSS. A security engineer not only creates a robust security posture for the entire organization but also maintains, improves, and makes it resilient against      the ever-changing threat landscape. He constantly runs checks and audits on the organization and its infrastructure, identifies flaws, weaknesses, and                vulnerabilities, and patches them to make the entire infrastructure more robust, while keeping the organization's goals and objectives in mind.
+- 
