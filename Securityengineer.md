@@ -39,3 +39,6 @@
   users are added to it and those users would automatically get the permissions and if they are removed from the group they will not have them and then we have
   mandatory access control in which assess is given based on clearance levels like bottom clearance can not access top clearance level assets and lastlly we have
   attributre based access control in which assess in given on the basis of attributes 
+- in an entire infrature their are several services and systems that are used by people for different type of work and they have to access them regulary for
+  work but they can not put in identity and password every time accesing the services so sso comes in play single sign on which means that the user gets
+  authenticated once and can use evrey service authorized to him for that specific session without further authentiations 
