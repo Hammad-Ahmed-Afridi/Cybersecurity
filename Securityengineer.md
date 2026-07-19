@@ -30,3 +30,7 @@
   The same thing happens in browsers using TLS/SSL certificates. The certificates are exchanged from the server to the browser, and the browser verifies them.
   It uses its own private key for the first decryption, and uses the public key of the server for the inner decryption. This key is validated against
   the certificate store where a hash is used and matched—though I have just simplified it here.
+- idm identity manaagement is the managemnet of identities their creation their storage their managemnet and their deletion for example a user comes and is
+  given his own card which includes name email contact number and address then we have iam identity and access managemnet which manages the access of the
+  user or the identity within the entire system based on authentication authorization accountabillity non repudiation and logging and monitoring for example
+  the user created has following access and when he shows his card he can access certain assets and locations idm comes under iam 
