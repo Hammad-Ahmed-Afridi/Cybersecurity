@@ -34,3 +34,8 @@
   given his own card which includes name email contact number and address then we have iam identity and access managemnet which manages the access of the
   user or the identity within the entire system based on authentication authorization accountabillity non repudiation and logging and monitoring for example
   the user created has following access and when he shows his card he can access certain assets and locations idm comes under iam 
+- access control models include discretionary access control in which the owner of the asset or a file can allow or deny further user activity on that particular
+  asset or file role based access control in which specific groupd are created which role groups and taht entire group is given access to certain asset and
+  users are added to it and those users would automatically get the permissions and if they are removed from the group they will not have them and then we have
+  mandatory access control in which os handles the permissions like some activities are not allowed to be done by users so that the normal functioning of
+  the system is not disrupted 
