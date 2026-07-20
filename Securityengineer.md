@@ -63,3 +63,4 @@
   the system using gui tools like nessus openvas and get to know the vulnerabilties against the known cve database and then also use these vulnerabilties
   to find the attack patterns used by attackers using mitre attack framework and also use this knowledge to patch them and also implement controls if patching
   them is costly 
+- 
