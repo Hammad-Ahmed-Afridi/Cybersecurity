@@ -49,4 +49,11 @@
   vulnerabilties if any recommending best security practices also these practices should be in accordance with the industry frameworks like iso 27001
   and soc 2 and legal regulatiosn like gdpr pcidss hippa recommend practices to implement these recommendations and then reviewing the adoption and
   constantly updating the information security policy for making the entire organization more robust against the ever changing threat landscape
-- 
+- in grc the risk managemnet is the core part and invloves the identification of all the systems and resources in an organization reviewing them against
+  known threats and attacks find vulnerabilties develop security for those systems and resources implement them ad review and audit the implementation adoption
+  and constantly update the policy against the changing threat landscape in this we haev multiple frameworks which comes down to the core principle mentioned
+  above the risk assessment focuses on vulnerabilities related to auithentication authorization access cotrol non repudiation denial of service privilage
+  escalation compromsing confidentiality integrity and availabilty so in risk assesment the attacks against the vulnerabilities are first found and then their
+  impact is kept in view and then prioritize them and do patches and fixes in this assessment we use MITRE ATTACK attacker tactics techniques and common
+  knowledge is a frame work or a database of all the attacks that happened and hwothey happened and what tacktic were used by the attacker and what vulnerabilties
+  they exploited we also use and we can use them to get knowledge against our systems and we use the tool called attack navigator for searching and finding 
