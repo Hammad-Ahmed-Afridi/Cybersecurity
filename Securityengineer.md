@@ -56,4 +56,10 @@
   escalation compromsing confidentiality integrity and availabilty so in risk assesment the attacks against the vulnerabilities are first found and then their
   impact is kept in view and then prioritize them and do patches and fixes in this assessment we use MITRE ATTACK attacker tactics techniques and common
   knowledge is a frame work or a database of all the attacks that happened and hwothey happened and what tacktic were used by the attacker and what vulnerabilties
-  they exploited we also use and we can use them to get knowledge against our systems and we use the tool called attack navigator for searching and finding 
+  they exploited we also use and we can use them to get knowledge against our systems and we use the tool called attack navigator for searching and finding
+  when the assessment is done the vulnerabilties are found against the system teh attack paterns are also found then steps are taken to mitigate these risks by
+  either patching them accepting them if the patching is far expensive then the loss or risk transfer and also before this process risk analysis is done
+  in which risk is prioritized on the basis of its impact and damage and the probability of happening and then they are cared for and we find vulnerabilties in
+  the system using gui tools like nessus openvas and get to know the vulnerabilties against the known cve database and then also use these vulnerabilties
+  to find the attack patterns used by attackers using mitre attack framework and also use this knowledge to patch them and also implement controls if patching
+  them is costly 
