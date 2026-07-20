@@ -42,8 +42,9 @@
 - in an entire infrature their are several services and systems that are used by people for different type of work and they have to access them regulary for
   work but they can not put in identity and password every time accesing the services so sso comes in play single sign on which means that the user gets
   authenticated once and can use evrey service authorized to him for that specific session without further authentiations 
-- governance is basically auditing and reviewing the information security posture of an organization and compliance is basically checking if the organization
-  is following the industry standards and protocols in its activities and procedures and systems grc governance risk and compliance is the steps taken to
+- governance is basically creating goals and policies and best practices of an organization and compliance is basically checking if the organization
+  is following the industry standards and protocols in its activities and procedures and systems grc governance risk and compliance is the creating policies
+  procedures for and organization succcess and making these policies in accordance with the regualtions and frameworks and steps taken to
   increase the security of an org by defining the scope and systems checking for implemented controls reviewing them doing risk assessment finding
   vulnerabilties if any recommending best security practices also these practices should be in accordance with the industry frameworks like iso 27001
   and soc 2 and legal regulatiosn like gdpr pcidss hippa recommend practices to implement these recommendations and then reviewing the adoption and
