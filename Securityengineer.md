@@ -82,4 +82,4 @@
 - windows device hardening can be achieved as the same as that of linux like we can implement strong iam policies like password strength principle of least
   privilage and other use firewall for monitoring traffic and allowing and blocking it use a boot loader password for uefi/bios harden the unused software and
   hardware ports remove the unneccessary services and download apps and softwares from trusted sources disable rdp login to administrator account and logging
-  and monitoring the events in the windows even t viewer
+  and monitoring the events in the windows event viewer use bitlocker encryption for data encryption use ssecure browsing 
