@@ -63,3 +63,11 @@
   the system using gui tools like nessus openvas and get to know the vulnerabilties against the known cve database and then also use these vulnerabilties
   to find the attack patterns used by attackers using mitre attack framework and also use this knowledge to patch them and also implement controls if patching
   them is costly
+- while a network is being established in an organization certain aspects are kept in mind like segmentation zone pair using secure protocols etc we can
+  segemnt a network using vlan technology this happens at layer 2 switch and we can either use two or more switches or be resouce consious and use a single
+  switch a single switch will not make the seperate networks one network instead for them to communicate we either remove the layer 2 switch and use a layer 3
+  switch or use a router with the layer 2 switch this helps in access control like if in a network attackers intruded and got control we can apply certain
+  rules and policies that will block them from lateral movement in a network ad privilage escaltion zone pair is implimenting rules and policies so that traffic
+  route could be in one direction not both or between the specific network zones we also have a dmz demilitarized zone that acts as a border between the internal
+  org network and external internet we can implement firewalls ids ips at specifc locations inside a network or at the start of the vlans so that the traffic
+  could be monitored and controlled 
