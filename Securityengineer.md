@@ -78,4 +78,8 @@
   he can not do privilage escalation to a root user updating and upgrading the system to the newest releases and logging the events and monitoring them
   continuously for any failures or malicios activities also disable direct root login over ssh we can also use firewall like ufw uncomplicated firewall that will
   also allow or disallow packets connection to the linux device and for data stored we should use the encryption and use the strongest encryption algorithm and
-  secure the keys and also use the encryption for data in transit between the systems 
+  secure the keys and also use the encryption for data in transit between the systems and backup neccessary data as well
+- windows device hardening can be achieved as the same as that of linux like we can implement strong iam policies like password strength principle of least
+  privilage and other use firewall for monitoring traffic and allowing and blocking it use a boot loader password for uefi/bios harden the unused software and
+  hardware ports remove the unneccessary services and download apps and softwares from trusted sources disable rdp login to administrator account and logging
+  and monitoring the events in the windows even t viewer
