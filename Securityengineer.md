@@ -71,3 +71,9 @@
   route could be in one direction not both or between the specific network zones we also have a dmz demilitarized zone that acts as a border between the internal
   org network and external internet we can implement firewalls ids ips at specifc locations inside a network or at the start of the vlans so that the traffic
   could be monitored and controlled 
+- linux device hardening include linux server or linux os hardware hardening we can accomplish this by using strong passwords and also enabling a strong
+  password policy also increasing the physical security by adding a boot password which will ask you for a password before the boot and it can not be changed by
+  a hacker like a normal log in password can be changed when physically present hardening the software and hardware ports that are not used and also
+  disabing services and packages that are not required implementing strict access control so thta even if the attacker got access to an account on the system
+  he can not do privilage escalation to a root user updating and upgrading the system to the newest releases and logging the events and monitoring them
+  continuously for any failures or malicios activities also disable direct root login over ssh 
