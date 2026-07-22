@@ -83,3 +83,10 @@
   privilage and other use firewall for monitoring traffic and allowing and blocking it use a boot loader password for uefi/bios harden the unused software and
   hardware ports remove the unneccessary services and download apps and softwares from trusted sources disable rdp login to administrator account and logging
   and monitoring the events in the windows event viewer use bitlocker encryption for data encryption use ssecure browsing 
+- for active directory hardening and network device hardening we use some of the above steps for them as well
+- for managing systems or devices on a network like servers firewall ips ids routers switches we can use cli as well as gui applications
+- we have network protocols that became insecure because the data sent over the internet using these protocols was not encrypted so ssl tls was used to wrap
+  these protocols for data encryption at application layer we have http dns ftp smtp pop3 imap telnet which became https dnssec ftps smtps pop3s imaps and ssh
+- at network layer we have ipsec which came after ppp and pptp protocol which is used by vpn for secure encrypted communication over the internet also we have
+  icmp for pinging devices over the network arp protocol
+- 
