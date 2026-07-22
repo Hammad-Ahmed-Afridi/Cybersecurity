@@ -77,4 +77,5 @@
   disabing services and packages that are not required implementing strict access control so thta even if the attacker got access to an account on the system
   he can not do privilage escalation to a root user updating and upgrading the system to the newest releases and logging the events and monitoring them
   continuously for any failures or malicios activities also disable direct root login over ssh we can also use firewall like ufw uncomplicated firewall that will
-  also allow or disallow packets connection to the linux device 
+  also allow or disallow packets connection to the linux device and for data stored we should use the encryption and use the strongest encryption algorithm and
+  secure the keys and also use the encryption for data in transit between the systems 
