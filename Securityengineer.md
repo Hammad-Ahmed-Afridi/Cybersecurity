@@ -95,4 +95,11 @@
   accomplish virtualization using a software called hypervisor it sits between the host and the virtual environments and allow the virtaul environment to
   communicate with the host and share resources we have two types of hypervisors tyep 1 which sits directly on top of the server or machine and create vms
   and type 2 which sits on top of the host os that is on the server like first we haev server than the server os than the hypervisor running on that os
-  and then that hypervisor creating multiple vms on top of host os type 1 example is vmware ex and type 2 is vmware workstation and oracle virtualbox 
+  and then that hypervisor creating multiple vms on top of host os type 1 example is vmware ex and type 2 is vmware workstation and oracle virtualbox virtual
+  machines are compute engines having their own cpu ram storage resources we use them for secure testing of software in isolated environemnts or for actually
+  using them for other purposes in clud computing
+- in correspondence to vms and hypervisor and virtualization we have containers containers are softwares solutions that package the code its dependencies
+  in to a single container and allow them to run anywhere we sue containers beccause it is less resource consuming than vms like we can run them on host os
+  without needing any extra compute or storage and we can set up containers using docker first we use docker to create a docker file than create a docker
+  image and then create a docker container and run it and in order to manage multiple docker containers we use kubernetes it is a orchestration software
+  that hepls in managing docker containers like creating new copies when needed and deeting them when not required 
