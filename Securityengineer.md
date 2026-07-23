@@ -111,3 +111,4 @@
   on consumer side just use the app for bsusiness or personnel purposes we use cloud computing for a numebr of resons like getting compute storage
   processing power without actually owning the hardware get robust security provided by cloud provider get backups for business continuity and disaster
   recovery 
+- cloud deployment models include public cloud private cloud hybrid cloud and community cloud 
