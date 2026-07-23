@@ -124,9 +124,3 @@
   implementing strict iam policies and rules and least access control and to overcome privilage escallation and lateral movement implemeting firewalls to cloud
   instances inplementing access control lists logigng and monitoring events for malicios and improper behavior in cloud computing the security is shared
   and is maintained by both the services provider and service consumer and this is called shared responsiblity model 
-- grc invloves checking the oraganizations compliance with the industry information security frameworks and legal laws and the audit is done on the
-  systems used in the org the policies the procedures and the business objectives audit is done by first defining the scope and then gathering information
-  doing risk assessment and risk analysis and then doing threat modelling then doing vulnerability assessment then providing mitigating actions set up guiding
-  actions create a robust incident response and disaster recovery and business continuity policies and framwork keeping in view the business objectives and goals
-  the industry framworks include iso 27001 soc 2 nist 800 and the legal laws include gdpr hippa pcidss dmca and auditing is basically checking that all these
-  processes are happening and are up to date like they do monitoring of teh organization
