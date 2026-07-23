@@ -116,3 +116,11 @@
   cloud cloud providor set up private set ups dedicated for a single user and then we have hybrid cloud which compose of public private and on prmise it
   infra and then we have community cloud which is for users that require same services or resources or configurations from the cloud providor so cloud
   providor set it up once and then copy them for all the users in a community
+- cloud security is security cloud encironment both physically and software point of view as well physical security is managed by the service provider and in
+  some cloud computing models like saas the software security is also managed by them but in cloud the infra when given to the consumer has to be software wise
+  managed by the consumer in cloud security their are many things to take care of like when data is stored encryption at rest should be used using strong industry
+  recognized algos when in transit same algos should be used and when destroying data specifci steps like encrypting the data and the destroying the keys and then
+  data when using the data secure connections should be estaleshed and aslo in cloud infra proper virtual environements should be set up for maximum isolation
+  implementing strict iam policies and rules and least access control and to overcome privilage escallation and lateral movement implemeting firewalls to cloud
+  instances inplementing access control lists logigng and monitoring events for malicios and improper behavior in cloud computing the security is shared
+  and is maintained by both the services provider and service consumer and this is called shared responsiblity model 
