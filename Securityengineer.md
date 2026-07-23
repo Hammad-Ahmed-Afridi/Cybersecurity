@@ -103,3 +103,10 @@
   without needing any extra compute or storage and we can set up containers using docker first we use docker to create a docker file than create a docker
   image and then create a docker container and run it and in order to manage multiple docker containers we use kubernetes it is a orchestration software
   that hepls in managing docker containers like creating new copies when needed and deeting them when not required 
+- cloud computing is getting compute storage network resources without owning the actual hardware on pay as you go pricing model the cloud service providor
+  sets up the hardware and the consumer gets to bu the services we have three cloud computing models like iaas paas saas in infrastructure as a service the
+  sloud providor sets up the entire infra and you have to manage the internals like os installed apps running like they set up the servers do teh external
+  networking and provide power and the rets is managed by the consumer in platforms as a service included services include the ones in the iaas and os
+  as well and you just ahve to manage the code and application on it and is softwware as a service everything is included includig the app and code and you
+  on consumer side just use the app for bsusiness or personnel purposes we use cloud computing for a numebr of resons like getting compute storage
+  processing power without actually owning the hardware get robust security provided by cloud provider 
