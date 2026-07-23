@@ -109,4 +109,5 @@
   networking and provide power and the rets is managed by the consumer in platforms as a service included services include the ones in the iaas and os
   as well and you just ahve to manage the code and application on it and is softwware as a service everything is included includig the app and code and you
   on consumer side just use the app for bsusiness or personnel purposes we use cloud computing for a numebr of resons like getting compute storage
-  processing power without actually owning the hardware get robust security provided by cloud provider 
+  processing power without actually owning the hardware get robust security provided by cloud provider get backups for business continuity and disaster
+  recovery 
