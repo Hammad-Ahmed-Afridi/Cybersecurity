@@ -89,4 +89,10 @@
   these protocols for data encryption at application layer we have http dns ftp smtp pop3 imap telnet which became https dnssec ftps smtps pop3s imaps and ssh
 - at network layer we have ipsec which came after ppp and pptp protocol which is used by vpn for secure encrypted communication over the internet also we have
   icmp for pinging devices over the network arp protocol
-- 
+- virtializations is a process through which we create muktiple software based infrastructure like computers with their own cpu ram storage while utilizing a
+  single host infra so that we can maximize the resource usage and reduce costs take for example we have a server if we run only one os on it we will be
+  wasting up so much resources so what we do is create virtual environmnets each seperate and isolated from each other having their own resouces we can
+  accomplish virtualization using a software called hypervisor it sits between the host and the virtual environments and allow the virtaul environment to
+  communicate with the host and share resources we have two types of hypervisors tyep 1 which sits directly on top of the server or machine and create vms
+  and type 2 which sits on top of the host os that is on the server like first we haev server than the server os than the hypervisor running on that os
+  and then that hypervisor creating multiple vms on top of host os type 1 example is vmware ex and type 2 is vmware workstation and oracle virtualbox 
