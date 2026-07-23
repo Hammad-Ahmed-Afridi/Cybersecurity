@@ -114,4 +114,5 @@
 - cloud deployment models include public cloud private cloud hybrid cloud and community cloud in public cloud we have services assessble to everyone like
   apart from us cloud provider can set up other users on a single server using that server resources using virtualization for isolation and in private
   cloud cloud providor set up private set ups dedicated for a single user and then we have hybrid cloud which compose of public private and on prmise it
-  infra and then we have community cloud 
+  infra and then we have community cloud which is for users that require same services or resources or configurations from the cloud providor so cloud
+  providor set it up once and then copy them for all the users in a community
