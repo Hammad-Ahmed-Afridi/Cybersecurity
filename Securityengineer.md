@@ -137,4 +137,11 @@
   and pushing and testing it through automatic ci/cd continuous integration continuous development pipelines for maximum productivity and speed and time to
   market we have ssdl which is basically adding security in sdlc process like devops becomes devsecops previously security was implemented at the end which
   led to many issues like cost time consumptions and many vulnerabilities to be solved and a need for shifting left strategy was felt like moving to the left
-  which is the beginning of the sdlc process for maximum security and to overcome other issues as well 
+  which is the beginning of the sdlc process for maximum security and to overcome other issues as well
+- we have multiple tools that are being used in devsecops are they are categorized into SAST DAST IAST RASP tools SAST stands for static application security
+  testing it is a white box testing method which means that the code is being scanned and reviewed for finding vulnerabilities we have manual and automated
+  scans and reviews and analysis DAST stands for dyanamic application security testing it is a black box method in which no code base is provided and the
+  tool or manual person do the testing an dfind vulnerabilities just like a real attacker we use tools like burpsuite or owasp zap IAST interactive application
+  security testing is a method in which the code is also available and also a real attacker scenario is also created for finding vulnerabilties easily and
+  which greater accuracy RASP runtime appliation self protection is a method in which tools are deployed on teh application server so that it can monitor the
+  traffic or unwanted behaviour and mitigate them and provide robust security  
