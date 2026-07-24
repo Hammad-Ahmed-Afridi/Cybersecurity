@@ -124,3 +124,10 @@
   implementing strict iam policies and rules and least access control and to overcome privilage escallation and lateral movement implemeting firewalls to cloud
   instances inplementing access control lists logigng and monitoring events for malicios and improper behavior in cloud computing the security is shared
   and is maintained by both the services provider and service consumer and this is called shared responsiblity model 
+- owasp api security includes bola which stands for broken object level authorization it is like idor in which a simple input can cause unauthorized access to
+  resources that do not have to be given access to we have bua broken user authentication that can be exploited to get authenticated without proper credentials
+  or identity or account we have excessive data exposure in which when api calls or api request are made to a server or database the server or db response
+  exposes too much data that is not required or is confedential we have no rate limiting and because of which too many api requests could be made exhausting
+  the resources or denial of service happens we have security misconfigurations like using basic or default credentials ro not setting up apis properly
+  we have injection attacks like code injection sql injection we have no proper logging and monitoring in which the usage of api their request and response is
+  not properly logged and monitored and hacker can take advantage of it by remaining invinsible 
