@@ -154,3 +154,7 @@
   level 4 which can take nuclear actions like shutting the whoe system down if the compromise is large scale and gotten a strong hold whe ever incident happens
   following steps are taken before the incident preperation and protection is done then during incident detect respond contain eradicate and recovery and after
   the recovery post incident recovery is done which include many processes and aslo includes lessons learned 
+- whenerv incident happens it is not a good protocol to turn of the systems becasue it can cause business disruption and lawsuites and more importantly the
+  system volatile memory has so much information regarding the attack or incident that it can be used in forensics but it gets lost so when the incident
+  happens and we detect it we dont shut the system down what we do is as we are trained in table top excercise we use playbooks for actiosn like we isolate
+  the affected system we inform the relevant stakeholders we keep the systems running we document our actions during attack 
