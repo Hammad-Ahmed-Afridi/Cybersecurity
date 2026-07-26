@@ -145,9 +145,12 @@
   security testing is a method in which the code is also available and also a real attacker scenario is also created for finding vulnerabilties easily and
   which greater accuracy RASP runtime appliation self protection is a method in which tools are deployed on teh application server so that it can monitor the
   traffic or unwanted behaviour and mitigate them and provide robust security  
-- IR incident response and IM incident management are processes which are carried out at the start and during the attack incident response is done when the attack
-  or incident happens and we detect it and incident managemnet is process that is carried out which includes conatining the attack and eradicating it
-  both the IR and IM are not seperae processes but a single two step process we have four levels of incidents that ae managed by four levels of team
-  first level is managed by soc team which is basic incident the next level is computer emergency readiness team level which is level 2 incidet responders and
+- IR incident response and IM incident management are processes which are carried out at the start and during and after the attack incident response is done
+  when the attack or incident happens and we detect it respond to it and take appropriate actions and also take the the organizational appraoch as well
+  apart from technical approaches is process that is carried out which includes conatining the attack and eradicating it both the IR and IM are not seperate
+  processes combined as one we have four levels of incidents that ae managed by four levels of team first level is managed by soc team which is
+  basic incident the next level is computer emergency readiness team level which is level 2 incidet responders and
   then the next level is computer security incident response team which are level three incident responders and then finally we have crisis managemnet team for
-  level 4 which can take nuclear actions like shutting the whoe system down if the compromise is large scale and gotten a strong hold 
+  level 4 which can take nuclear actions like shutting the whoe system down if the compromise is large scale and gotten a strong hold whe ever incident happens
+  following steps are taken before the incident preperation and protection is done then during incident detect respond contain eradicate and recovery and after
+  the recovery post incident recovery is done which include many processes and aslo includes lessons learned 
