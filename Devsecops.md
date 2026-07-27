@@ -10,3 +10,10 @@
   allows us to have our own private local gitlab server and in between this process of branching merging pushing their is a pipeline called ci cd pipeline
   which includes building testing and deploying and most of this is automated and have strict access controls and these systems are hardened and many tools are
   used for building testing deploying like in testing we use sast dast iast rasp we aslo have multiple encironments like dev env test enc pre prod env prod env etc 
+- in devsecops we will comme across two most improtant terms called docker and kubernetes first discussing docker docker is a containerization platform like
+  we use docker to create containers and what is container it is a package of software including code and its dependencies like a box having its code inside and
+  all the dependencies that the code depends upon so that the entire app runs smoothly on any device it opens docker do not require any operating system as its
+  own just like vm ddoes it uses the host os first we have docker engine which create docker containers from images that re defined in a docker file and then we
+  have kubernetes which is an orchestration software which lets run multiple docker containers and manage them and setup more when needed or destroy when not needed
+  we also have to enable and do security on docker and kubernetss as when using these technoloies they increase the attack surface for both docke ran dkubernete we
+  use yaml which is a markup lannguage 
