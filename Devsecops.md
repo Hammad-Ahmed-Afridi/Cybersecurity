@@ -9,4 +9,4 @@
   using a version control system like git and the code repo is wither stored locally on private server or on cloud like github we also use gitlab and it also
   allows us to have our own private local gitlab server and in between this process of branching merging pushing their is a pipeline called ci cd pipeline
   which includes building testing and deploying and most of this is automated and have strict access controls and these systems are hardened and many tools are
-  used for building testing deploying like in testing we use sast dast iast rasp
+  used for building testing deploying like in testing we use sast dast iast rasp we aslo have multiple encironments like dev env test enc pre prod env prod env etc 
