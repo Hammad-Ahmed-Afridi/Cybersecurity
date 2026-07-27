@@ -15,5 +15,5 @@
   all the dependencies that the code depends upon so that the entire app runs smoothly on any device it opens docker do not require any operating system as its
   own just like vm ddoes it uses the host os first we have docker engine which create docker containers from images that re defined in a docker file and then we
   have kubernetes which is an orchestration software which lets run multiple docker containers and manage them and setup more when needed or destroy when not needed
-  we also have to enable and do security on docker and kubernetss as when using these technoloies they increase the attack surface for both docke ran dkubernete we
-  use yaml which is a markup lannguage .
+  we also have to enable and do security on docker and kubernetss as when using these technoloies they increase the attack surface for both docke and kubernetes
+  we use yaml 
