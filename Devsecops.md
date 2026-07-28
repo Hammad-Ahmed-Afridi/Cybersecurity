@@ -23,4 +23,4 @@
   for full control and data sovereignty and data protection against strict legal laws and regualations the automatic tool that is used for cloud resource management
   and creation is called terrraform and the language used is hcl hashicrop configuration language this language is cloud agnostic meaning it can be used in any
   csp and is also agentless meaning no agents need to be installed in a server or device to manage the resources in it and also it is a declarative language
-  meaning the final desired state of the infrastructure is given by writing it in configuration file 
+  meaning the final desired state of the infrastructure is given by writing it in configuration file and the terraform core 
