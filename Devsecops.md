@@ -24,4 +24,7 @@
   and creation is called terrraform and the language used is hcl hashicrop configuration language this language is cloud agnostic meaning it can be used in any
   csp and is also agentless meaning no agents need to be installed in a server or device to manage the resources in it and also it is a declarative language
   meaning the final desired state of the infrastructure is given by writing it in configuration file and the terraform core which manages all the actions takes that
-  file and matches it to the state.tf file and keep allocating and deallocating resources until the final desired state is not reached 
+  file and matches it to the state.tf file and keep allocating and deallocating resources until the final desired state is not reached we have terraform own
+  ci cd process in devsecops which includes planning building testing releasing deploying and monitoring and special security practices are needed for using terraform
+  which includes not hardcoding credentials in the code not implementing strict access control to terraform core service not monitoring the process not using the version
+  control system doing security checks against the written terraform code and also using the community written code for terraform which are according to best practices 
