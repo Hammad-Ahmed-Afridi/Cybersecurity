@@ -27,4 +27,4 @@
   file and matches it to the state.tf file and keep allocating and deallocating resources until the final desired state is not reached we have terraform own
   ci cd process in devsecops which includes planning building testing releasing deploying and monitoring and special security practices are needed for using terraform
   which includes not hardcoding credentials in the code implementing strict access control to terraform core service monitoring the process using siem using the version
-  control system doing security checks against the written terraform code and also using the community written code for terraform which are according to best practices.
+  control system doing security checks against the written terraform code and also using the community written code for terraform which are according to best practices
