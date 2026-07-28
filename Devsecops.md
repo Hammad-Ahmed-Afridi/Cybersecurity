@@ -24,4 +24,4 @@
   and creation is called terrraform and the language used is hcl hashicrop configuration language this language is cloud agnostic meaning it can be used in any
   csp and is also agentless meaning no agents need to be installed in a server or device to manage the resources in it and also it is a declarative language
   meaning the final desired state of the infrastructure is given by writing it in configuration file and the terraform core which manages all the actions takes that
-  file and matches it to the state.tf file and keep allocating and deallocating resources until 
+  file and matches it to the state.tf file and keep allocating and deallocating resources until the final desired 
