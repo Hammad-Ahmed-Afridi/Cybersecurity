@@ -17,3 +17,10 @@
   have kubernetes which is an orchestration software which lets run multiple docker containers and manage them and setup more when needed or destroy when not needed
   we also have to enable and do security on docker and kubernetss as when using these technoloies they increase the attack surface for both docke and kubernetes
   we use yaml 
+- we have cloud and on premise infrastructure which include servers which are than configured to provide services included compute network storage cloud is managed
+  by cloud service provider like aws gcp azure etc and on prem is managed by the company itself for configuration managing and allocation dealocation of
+  resources we use methods like manual ones which need to be configured and managed manually or automatically which is done using tools on prem infra is used
+  for full control and data sovereignty and data protection against strict legal laws and regualations the automatic tool that is used for cloud resource management
+  and creation is called terrraform and the language used is hcl hashicrop configuration language this language is cloud agnostic meaning it can be used in any
+  csp and is also agentless meaning no agents need to be installed in a server or device to manage the resources in it and also it is a declarative language
+  meaning the final desired state of the infrastructure 
