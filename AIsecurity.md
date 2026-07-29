@@ -12,3 +12,8 @@
   model this is called distillation attack in which one model gets trained on another model structured outputs without requiring extensive gpus and data sets which
   reduces the cost of training the model and get good also than we have private information disclosure in which if the model is trained on data that included the private
   info outputs produces may contain that information 
+- as ai is being adopted very fastly attackers are using it to their benefits like creating highly complex and dangerous malwares in matter of some time and using it
+  against systems and also doing social engineering by creating highly accurate phishing emails cloning voices and creating deepfakes but as the attackers are using them
+  security analyst and security engineers are also using them for their own benefits like using ml models to identify phishing emails with maximum positives by training
+  them on large data sets of phishing emails and normal ones and then deploying them on security systems like siem and security engineers use them for having a teammate
+  that tell them to perform certain actions that they may miss if they ddo it themselves on the systems for maximum security 
