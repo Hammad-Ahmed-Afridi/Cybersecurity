@@ -1,8 +1,8 @@
 # Try Haack Me
 ## AI Security
 - the first module focuses on foundational knowledge required for artificial intelligence like llms machine learning deep learning neural networks types of machine
-  learning like supervised unsupervised semi supervised and reinforcement learning datasets ml algorithms nodes fine tuning black box white box models all of
-  these concepts are mentioned in my ai repo in easy used terminologies
+  learning like supervised unsupervised semi supervised and reinforcement learning datasets ml algorithms nodes fine tuning black box white box models foundational
+  models pre trained models model bias all of these concepts are mentioned in my ai repo in easy used terminologies
 - as ai adooption is increasing day by day its becomes just like other system in an infra that is security is required ai security is the practice of securing ai tools
   models against adversaries attacks include prompt injection in which the attacker enters a well curated prompt which makes the ai go against its predefined rules for
   its behaviour which are also called guardrails and system prompts and make the ai model do wrong doings then we have data poisoning as we know that ai is trained on
