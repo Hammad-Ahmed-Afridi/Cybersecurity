@@ -17,3 +17,5 @@
   security analyst and security engineers are also using them for their own benefits like using ml models to identify phishing emails with maximum positives by training
   them on large data sets of phishing emails and normal ones and then deploying them on security systems like siem and security engineers use them for having a teammate
   that tell them to perform certain actions that they may miss if they ddo it themselves on the systems for maximum security 
+- we can secure ai models by properly configuring them using proper cleaned datasets implementing strict guardrails and system prompts and implementing rbac and
+  strict access control and monitoring the deployed models and checking for anomalies and unusual behavior 
