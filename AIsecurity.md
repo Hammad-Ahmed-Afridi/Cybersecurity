@@ -24,3 +24,10 @@
   prompt given by user system prompt are guidelines rules that are bolted in for the ai model to perform in a certain way that prompt is not visible to the end user
   we can giev ai prompts in a specific way for desired outcomes like first we give the context than the instructions that the output format and then certain rules to
   follow 
+- ai models are being used in cybersecurity in a number of ways in digital forensics we have large sets of data and a human would take much time so the ai model is
+  fed the dataset and it analyzes it correlates them and give output that is highly accurate if the prompts and detailed and the data is extensive same goes with great
+  numeber of logs that are generated and ai models help in triaging alerst and correlating them also ml models can be used for detecting anomalies by first making them
+  learn the normal state and then use it for abnormalities but as ai is very useful ai is also very probabilistic rather than deterministic that is same input can create
+  completely different output and also i high number if false positives can be generated when relying solely on ml models also ai models are not transparent that is
+  no one knows how and why ai made such an output and decision and can be sometimes biased so the oiutcomes can not be used in legal rulings where chain of custody is
+  a must and also where findings are transparent that tells who found them ad why 
