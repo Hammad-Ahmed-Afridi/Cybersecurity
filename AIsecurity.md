@@ -19,3 +19,8 @@
   that tell them to perform certain actions that they may miss if they ddo it themselves on the systems for maximum security 
 - we can secure ai models by properly configuring them using proper cleaned datasets implementing strict guardrails and system prompts and implementing rbac and
   strict access control and monitoring the deployed models and checking for anomalies and unusual behavior 
+- prompting ai is giving it some text from user side so that it can analyze it and give answers the more detailed the prompt the more detailed and accurate the answer
+  it is like garbage in garbage out this also goes for data also that the model is being trained on we have system prompt and user prompt user prompt is the text or
+  prompt given by user system prompt are guidelines rules that are bolted in for the ai model to perform in a certain way that prompt is not visible to the end user
+  we can giev ai prompts in a specific way for desired outcomes like first we give the context than the instructions that the output format and then certain rules to
+  follow 
