@@ -34,4 +34,4 @@
 - ai is a system as a whole containing multiple ayers and just like any other system it also has vulnerabilities and needs security owasp top 10 for llm has the ten
   most common vulnerabilities and mitre atlas adverserial threat landscape for ai systems shows how these llm vulnerabilities are exploited by attacker and nist
   ai risk managemnt framework tells us how to protect them we also have a field called mlsecops which is the security of ml models or ai models from the start
-  
+- attacks include prompt injection data posining model theft supply chain attack system prompt leakage 
