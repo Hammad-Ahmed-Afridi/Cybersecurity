@@ -445,7 +445,8 @@
   always verify even the entities within an infrastructure 
 - vulnerabilties are weaknesses gaps or logical flaws in a system and threat is the actor that can exploit the vulnerabilty and risk is the
   probability that the threat may exploit and take advantage of that vulnerabilty 
-- Red team acts as an ethical hackers they use real world hacker tactics like phishing physical security breaches and malware emulation to uncover deep              vulnerabilities missed by standard engineering providing actionable data for VAPT (Vulnerability Assessment and Penetration Testing) reports blue
+- Red team acts as an ethical hackers they use real world hacker tactics like phishing physical security breaches and malware emulation to uncover deep
+  vulnerabilities missed by standard engineering providing actionable data for VAPT (Vulnerability Assessment and Penetration Testing) reports blue
   acts as the defender they design secure systems maintain security controls monitor network traffic for anomalies and actively respond to incidents
   to mitigate both real and simulated attacks.
 - owasp open worldwide application security platform is a security platform that has all info related to the most common vulnerabilties that are
@@ -462,3 +463,7 @@
   can steal it decrypt it and when the design is insecure the system will show things or parts that need to be actually hidden instead of being disclosed
   we also have injection attacks like sql injection in which attacker can exploit the input field by typing random characters and get authenticated as
   a legitimate user he can also get the database spit out information that is stored in the table 
+- The No-Binary Magic Number Method enables instant subnetting by creating a table mapping CIDR prefixes (/25-/32) to values (128, 64, 32, 16, 8, 4, 2, 1)
+  where the specific value under a prefix acts as the "Magic Number." For a given IP, such as 192.168.1.50 with a /27 prefix (Magic Number 32), you count
+  by that number (0, 32, 64) to establish boundaries. The target IP falls into the network block starting at 32, defining the Network ID (192.168.1.32)
+  the Broadcast ID (192.168.1.63), and the usable device range (192.168.1.33-62)
