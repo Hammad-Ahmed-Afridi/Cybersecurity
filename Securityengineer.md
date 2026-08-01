@@ -168,3 +168,5 @@
   thoroughly documented because internal, third-party, and certifying auditors rely strictly on this evidentiary trail to verify compliance, grant the Authorization
   to Operate (ATO), and build customer trust. Ultimately, compliance is not a one-time certification milestone but an ongoing process of continuous improvement
   that adapts to an ever-changing threat landscape.
+- ISO 27001 is the only standard in the family against which an organization can get officially certified, while ISO 27000 serves as the vocabulary glossary and
+  ISO 27002 functions as the detailed instruction playbook
