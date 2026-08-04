@@ -19,3 +19,4 @@
   of tried-and-true defensive strategies. By enforcing fundamental cyber hygiene practices—including strong password policies, strict access controls rooted in
   the Principle of Least Privilege (PoLP), rigorous software patching, and the removal of unnecessary services to reduce the attack surface—organizations can
   effectively protect these essential assets from the vast majority of malicious exploits and hazardous events.
+-
