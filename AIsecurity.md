@@ -39,3 +39,6 @@
   we have a number of llm and ai model attacks and owasp top 10 for llm are propmt injection access privilages data posining model theft accessive trust supply chain
   system prompt leakage and many more we can use mitre atlas framework to study how llm attacks are carried out and use nist ai framework to put safeguards we can also
   implement system prompt hardening input validation data protection for supply chain least privilages and many more 
+- prompt injection is done by manipulating the model and making it go against the guardrails it has and also leak the system prompt or make it do the work that it is
+  not intended to do but this only works for that session then we have jailbraking that is making the model permanently go against its guardrails and rules and this
+  can be done by a numebr of methods including prompt injection 
