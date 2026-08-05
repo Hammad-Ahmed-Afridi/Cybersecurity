@@ -42,3 +42,9 @@
 - prompt injection is done by manipulating the model and making it go against the guardrails it has and also leak the system prompt or make it do the work that it is
   not intended to do but this only works for that session then we have jailbraking that is making the model permanently go against its guardrails and rules and this
   can be done by a numebr of methods including prompt injection 
+- we either use ai through apis and apps or self deploy it when using the apis we can only check for the things that are in front of us the cat interface the model
+- behaviour and we can use the apis of well known providers for safety but still it is all balckbox that is we do not how it works how was it trained and on which data
+  set and what tools it use and then we have deployed models on our own systems which we fine tune for specific purpose for safety we use model cards that has all the
+  details about the model like the provider the data set on which it was trained and the pickle and safe tensor serialisation which tells us will the code be executed
+  or not but best is safe tensor we can also do model scan using tools and once the model that is downloaded goes through all these methodologies it is safe to be
+  used and deployed but still it should not be given access privilages 
