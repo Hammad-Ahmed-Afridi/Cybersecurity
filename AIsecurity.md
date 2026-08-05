@@ -34,3 +34,8 @@
 - ai is a system as a whole containing multiple ayers and just like any other system it also has vulnerabilities and needs security owasp top 10 for llm has the ten
   most common vulnerabilities and mitre atlas adverserial threat landscape for ai systems shows how these llm vulnerabilities are exploited by attacker and nist
   ai risk managemnt framework tells us how to protect them we also have a field called mlsecops which is the security of ml models or ai models from the start
+- ai models is not a one surface application but the whole architecture is built upon number of tools like the models itself the user end app the the data the model is
+  trained on the rag pipeline the vector database the system prompts so for this we can not implement one stop solution we have to implement multiple layer security
+  we have a number of llm and ai model attacks and owasp top 10 for llm are propmt injection access privilages data posining model theft accessive trust supply chain
+  system prompt leakage and many more we can use mitre atlas framework to study how llm attacks are carried out and use nist ai framework to put safeguards we can also
+  implement system prompt hardening input validation data protection for supply chain least privilages and many more 
