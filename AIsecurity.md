@@ -52,4 +52,6 @@
   stored in vector database and when the ai system is prompted the prompt is taken and then the system prompt is included and then the system retrives the text that
   best matches to the prompt like closely related and then they are sent as one to the llm for generating a response in this system llm can not distinguish between
   the user prompt the system propmt and the retrived document so it if attacker manipulates the system to give off baad document like in rag system by injecteing it
-  or abusing semantic relevance or do prompt injection or hijack system propmt in this way they can manipulate the model and make it give bad outputs 
+  or abusing semantic relevance or do prompt injection or hijack system propmt in this way they can manipulate the model and make it give bad outputs for mitigating
+  this the system prompts are hardened and the rag database should be secured and the user propmts should be distinguished by labelling or tagging and also monitoring
+  the llm outputs and the rag database 
