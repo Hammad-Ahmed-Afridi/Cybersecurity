@@ -48,3 +48,6 @@
   details about the model like the provider the data set on which it was trained and the pickle and safe tensor serialisation which tells us will the code be executed
   or not but best is safe tensor we can also do model scan using tools and once the model that is downloaded goes through all these methodologies it is safe to be
   used and deployed but still it should not be given access privilages 
+- retrieval augmented generation rag is used to make llm use retrieval system for custom documents the documents are stored as embeddings that are basically vectors
+  stored in vector database and when the ai system is prompted the prompt is taken and then the system prompt is included and then the system retrives the text that
+  best matches to the prompt like closely related and then they are sent as one to the llm for generating a response
