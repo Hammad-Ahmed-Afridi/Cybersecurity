@@ -55,4 +55,3 @@
   or abusing semantic relevance or do prompt injection or hijack system propmt in this way they can manipulate the model and make it give bad outputs for mitigating
   this the system prompts are hardened and the rag database should be secured and the user propmts should be distinguished by labelling or tagging and also monitoring
   the llm outputs and the rag database 
-- 
