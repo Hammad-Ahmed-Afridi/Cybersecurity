@@ -11,3 +11,6 @@
 - in cyersecurity we can implement the most robust systems and make an outstanding security posture but if the humans as the weakest link are not trained they are not
   proper trianing than the security systems are of no use becasue an attacker can exploit the human emotions and get access to system and from then on it is easy for the
   adversary if skilled to gain foothold do lateral movement and privilage escalation and do serious level of destruction 
+- in security operation centre soc we have teams and they consists of people like soc analysts security engineers soc engineers incident responders malware analysts
+  ciso soc manager and many more we also have a number of tools being used in soc like siem security information and event management edr endpoint detection and response
+  soar security orchestration automation and response 
