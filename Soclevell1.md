@@ -20,4 +20,6 @@
   detecting activities on endpoints and taking actions against anomalies they also provide centralized lookups but the difference between an edr and siem is that siem is
   mostly used for entire network analysis and detections but edr is specifically used for endpoints that is devices that are connected to each other in a network
   and the other difference is that siem can not take actiosn it can only collect aggregate noramlize and correlate logs and display them in a structured format but edr
-  can take actions from the centralized hub 
+  can take actions from the centralized hub then we have soar which is used for automating repetitive tasks becasue in soc environments their are numerous events being
+  collected from network and devices and managing every one of them becomes difficult so soar is used in which a serious of steps and actiosn are predefined and are taken
+  if those are needed 
