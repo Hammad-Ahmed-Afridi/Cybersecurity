@@ -17,4 +17,7 @@
 - on every device a number of activities happen that are called events these events are logged in structured manner in a specific location these are used for analysis and
   monitoring these logs are being used by soc teams for providing security by monitoring actions on devices but as in an organization their are a number of devices it
   becomes difficult so these logs are forwarded to a central system called siem for a centralized analysis and itr becomes easy for monitoring edr is used for
-  detecting activities on endpoints and taking actions against anomalies they also provide centralized lookups 
+  detecting activities on endpoints and taking actions against anomalies they also provide centralized lookups but the difference between an edr and siem is that siem is
+  mostly used for entire network analysis and detections but edr is specifically used for endpoints that is devices that are connected to each other in a network
+  and the other difference is that siem can not take actiosn it can only collect aggregate noramlize and correlate logs and display them in a structured format but edr
+  can take actions from the centralized hub 
