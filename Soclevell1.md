@@ -14,3 +14,7 @@
 - in security operation centre soc we have teams and they consists of people like soc analysts security engineers soc engineers incident responders malware analysts
   ciso soc manager and many more we also have a number of tools being used in soc like siem security information and event management edr endpoint detection and response
   soar security orchestration automation and response 
+- on every device a number of activities happen that are called events these events are logged in structured manner in a specific location these are used for analysis and
+  monitoring these logs are being used by soc teams for providing security by monitoring actions on devices but as in an organization their are a number of devices it
+  becomes difficult so these logs are forwarded to a central system called siem for a centralized analysis and itr becomes easy for monitoring edr is used for
+  detecting activities on endpoints and taking actions against anomalies they also provide centralized lookups 
