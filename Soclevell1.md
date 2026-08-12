@@ -22,4 +22,4 @@
   and the other difference is that siem can not take actiosn it can only collect aggregate noramlize and correlate logs and display them in a structured format but edr
   can take actions from the centralized hub then we have soar which is used for automating repetitive tasks becasue in soc environments their are numerous events being
   collected from network and devices and managing every one of them becomes difficult so soar is used in which a serious of steps and actiosn are predefined and are taken
-  if those are needed 
+  if those are needed nowadays every tool is being centralized in a dashboard so that is becomes more easy for soc teams to manage everything 
