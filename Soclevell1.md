@@ -29,6 +29,9 @@
   alert severity ranging from low medium high and critical and the alerts that are old and also are critical should be dealt with first because attacker has
   already gained foothold and may have ampped the entire system as comapred to the new attacker and also proper documentation should be made before escalting to
   soc level 2
+- in soc teams and soc environments we have terms that are being used that give us metrics on which we can identify the competency of the soc team and environment
+  like mean time to detect mttd mean time to respond mttr and false positive percentage and true positive percentage
 - soc teams have workbooks or playbooks or runbooks these books include guides and instructions to be followed when an incident happens and the steps include like protect
   detect respond and recover and post incident steps these are constantly updated and maintained and they are neccessary for soc teams as during attacks the envirnment
   becomes stressfull and without any guide it becomes difficult to mitigate the attack 
+- 
