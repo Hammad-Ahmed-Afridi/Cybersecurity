@@ -22,7 +22,13 @@
   and the other difference is that siem can not take actiosn it can only collect aggregate noramlize and correlate logs and display them in a structured format but edr
   can take actions from the centralized hub then we have soar which is used for automating repetitive tasks becasue in soc environments their are numerous events being
   collected from network and devices and managing every one of them becomes difficult so soar is used in which a serious of steps and actiosn are predefined and are taken
-  if those are needed nowadays every tool is being centralized in a dashboard so that is becomes more easy for soc teams to manage everything 
+  if those are needed nowadays every tool is being centralized in a dashboard so that is becomes more easy for soc teams to manage everything
+- alerts are the important components of a soc environment and they appear constantly and every second and must be dealt with and the dealing should be in such a way that
+  the important ones are dealt with care and precautions and given full concentration and the normal ones should also be inspected but if it is a normal system activity
+  the alert can be dropped this is called alert triaging that is prioritizing what is necessary and documneting investiigating and escalating and solving them we have
+  alert severity ranging from low medium high and critical and the alerts that are old and also are critical should be dealt with first because attacker has
+  already gained foothold and may have ampped the entire system as comapred to the new attacker and also proper documentation should be made before escalting to
+  soc level 2
 - soc teams have workbooks or playbooks or runbooks these books include guides and instructions to be followed when an incident happens and the steps include like protect
   detect respond and recover and post incident steps these are constantly updated and maintained and they are neccessary for soc teams as during attacks the envirnment
   becomes stressfull and without any guide it becomes difficult to mitigate the attack 
