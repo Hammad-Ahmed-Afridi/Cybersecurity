@@ -44,3 +44,6 @@
   also not effective that much then we have ttps that is tactics techniques and procedures if we have well erquipped systesm in place people trained and the ttps
   of the attackers are known so even if they use diffirent tools the core method philosophy will be the same so it becomes easier for defenders to catch attackers and
   the attackers are left with no choice but to spend more time effort and money for workarounds 
+- cyber kill chain is a framework that tells us about the attack from beginning till the end from reconaissance stage to weaponization to delivery to exploitations to
+  installation to command and control to exfiltration and this framework became old so a new framework came called unified kill chain and includes reconaissance stage
+  to weaponization to delivery to exploitations to installation to lateral mocemnet to command and control to privilege escalation to data discovery to exfiltration
