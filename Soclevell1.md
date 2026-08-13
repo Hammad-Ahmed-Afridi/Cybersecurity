@@ -47,3 +47,7 @@
 - cyber kill chain is a framework that tells us about the attack from beginning till the end from reconaissance stage to weaponization to delivery to exploitations to
   installation to command and control to exfiltration and this framework became old so a new framework came called unified kill chain and includes reconaissance stage
   to weaponization to delivery to exploitations to installation to lateral mocemnet to command and control to privilege escalation to data discovery to exfiltration
+- mitre is a open knowledge base for attacker tactics techniques and procedures used we have a number of frameworks that are being given freely by mitre that are
+  mitre attack mitre atlas mitre defend mitre attack which stands for attacker tactic techniques and common knowledge tells us why attacker performed certain
+  actions which is tactic and then tells us how the actions were performed which is techniques and procedures mitre atlas stands for adversarial threat landscape for ai
+  systems for attacks on ai systems and mitre defend stands for detection denial and disruption for security against these attacks 
