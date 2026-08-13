@@ -23,3 +23,6 @@
   can take actions from the centralized hub then we have soar which is used for automating repetitive tasks becasue in soc environments their are numerous events being
   collected from network and devices and managing every one of them becomes difficult so soar is used in which a serious of steps and actiosn are predefined and are taken
   if those are needed nowadays every tool is being centralized in a dashboard so that is becomes more easy for soc teams to manage everything 
+- soc teams have workbooks or playbooks or runbooks these books include guides and instructions to be followed when an incident happens and the steps include like protect
+  detect respond and recover and post incident steps these are constantly updated and maintained and they are neccessary for soc teams as during attacks the envirnment
+  becomes stressfull and without any guide it becomes difficult to mitigate the attack 
