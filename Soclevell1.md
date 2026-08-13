@@ -34,4 +34,13 @@
 - soc teams have workbooks or playbooks or runbooks these books include guides and instructions to be followed when an incident happens and the steps include like protect
   detect respond and recover and post incident steps these are constantly updated and maintained and they are neccessary for soc teams as during attacks the envirnment
   becomes stressfull and without any guide it becomes difficult to mitigate the attack 
-- 
+- pyramid of pain is a diagram or lets say a guide that needs to be known in order to make attacks less frequent and more costly and tine consuming for attackers
+  first we have hash values as many tools out their like virus total that checks a file hash against known hashes that were malicious in a number of tools or app
+  like app.any.run that lets us give browser based sandbox to test the malware but this can easily be tricked becasue as we know just changing a single character in a
+  hash file can change the entire hash of that file so the attacker can tricj these tools and tehy can bypass rules or signatures so we can not only depend on hashes
+  then we have ip addresses ip addresses that are malicious can be tested by the same two tools as well as ip checkers for locations but ips can be spoofed and they can
+  be cosntantly changed by attackers thay can also use botnets in which the source ip that is cc server can become difficult to detect so we can not only rely on
+  ips as well then wehave domaian same case domains can also be checked for previous maliciosu activities but attackers can but domains from trusted parties so this is
+  also not effective that much then we have ttps that is tactics techniques and procedures if we have well erquipped systesm in place people trained and the ttps
+  of the attackers are known so even if they use diffirent tools the core method philosophy will be the same so it becomes easier for defenders to catch attackers and
+  the attackers are left with no choice but to spend more time effort and money for workarounds 
