@@ -53,4 +53,7 @@
   systems for attacks on ai systems and mitre defend stands for detection denial and disruption for security against these attacks 
 - phishing is a social engineering attack that is used to exploit humans for delivering malware in to the systems or networks phishing is mostly done by emails in which
   well crafted emails are made impersonating legitimate users or organizations and sent to users so that they interact with it either by clicking a malicious link which
-  will direct them to a specific website or either downloading a file which is executable which will execute code in the background 
+  will direct them to a specific website or either downloading a file which is executable which will execute code in the background nowadays as ai became more common
+  phishing attacks got perfected that is attacker can craft well curated emails that are highly accurate and also personnel this happens because of ai speed of
+  developement phishing can be detected in a number of ways like the use of malicios link generalized audience sense of urgency links to malicious websites .exe
+  extension files attached and other as well we can use tools like virus total for detecting the links and file hashes against known malware database 
