@@ -51,3 +51,4 @@
   mitre attack mitre atlas mitre defend mitre attack which stands for attacker tactic techniques and common knowledge tells us why attacker performed certain
   actions which is tactic and then tells us how the actions were performed which is techniques and procedures mitre atlas stands for adversarial threat landscape for ai
   systems for attacks on ai systems and mitre defend stands for detection denial and disruption for security against these attacks 
+- phishing is a social engineering attack that is used to exploit humans for delivering malware in to the systems or networks
