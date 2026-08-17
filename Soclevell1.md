@@ -56,4 +56,5 @@
   will direct them to a specific website or either downloading a file which is executable which will execute code in the background nowadays as ai became more common
   phishing attacks got perfected that is attacker can craft well curated emails that are highly accurate and also personnel this happens because of ai speed of
   developement phishing can be detected in a number of ways like the use of malicios link generalized audience sense of urgency links to malicious websites .exe
-  extension files attached and other as well we can use tools like virus total for detecting the links and file hashes against known malware database 
+  extension files attached and other as well we can use tools like virus total for detecting the links and file hashes against known malware database and we can use
+  browser based sandboxes to interact with the files and links so that our original pc does not get infected even if we interact with it 
