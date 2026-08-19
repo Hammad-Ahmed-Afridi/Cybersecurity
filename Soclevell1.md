@@ -70,4 +70,5 @@
   have tactics and techniques and procedures clearly mapped out in the mitre frameworks like atlas attack and defence is also given in mitre defend framework when an
   attack happens their are a number of indicators like malicious executables being run and it downloading files or running commands host talking to system other than
   network or normal connections defence services being executed new processes being created to make remain trojan new file and folders created and sudden deletion of
-  i portant files and folders new account created brute force attacks froma single ip or a number of ips in case of botnet 
+  i portant files and folders new account created brute force attacks froma single ip or a number of ips in case of botnet ip addresses systems becoming part of the network
+  that are not expected 
