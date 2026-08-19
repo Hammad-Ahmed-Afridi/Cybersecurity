@@ -58,3 +58,9 @@
   developement phishing can be detected in a number of ways like the use of malicios link generalized audience sense of urgency links to malicious websites .exe
   extension files attached and other as well we can use tools like virus total for detecting the links and file hashes against known malware database and we can use
   browser based sandboxes to interact with the files and links so that our original pc does not get infected even if we interact with it we can also use phishtool as well
+- network traffic analysis is done to know the behaviour  of teh network like is the network functioning normally are their any malicious behavious are their any
+  abnormal behaviours for trobleshooting what connections are made by whim and to whom and what packets are flowing all this knowledge is gained by network traffic analysis
+  we can get port numbers protocols used ip addresses mac addresses versions of used softwares and hardwares and many more things also we can use tools like wireshark
+  tcpdump or network miner to capture live traffic and do analysis on it or save the captures packets in a pcap file for later analysis these tools capture packets
+  and present with so much information and we can apply filters to detect abnormal behavious these tools are used in incident response and post incident activity for
+  knowing the entire lifecycle of the attacks 
