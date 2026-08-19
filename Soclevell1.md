@@ -64,3 +64,10 @@
   tcpdump or network miner to capture live traffic and do analysis on it or save the captures packets in a pcap file for later analysis these tools capture packets
   and present with so much information and we can apply filters to detect abnormal behavious these tools are used in incident response and post incident activity for
   knowing the entire lifecycle of the attacks 
+- we can use a number of tools to detect the maliciosu behaviour and also respond to it tools like splunk as siem wazuh as xdr for both the networks and endpoints use
+  firewalls use ids and ips use tools like wireshark or tcpdump for analysis with addition to siem we can detect attacks like man in teh middle attack data exfilterations
+  command executions phishing attacks command and control setups shell setups denial of service and distributed denial of service which includes a botnet and many of them
+  have tactics and techniques and procedures clearly mapped out in the mitre frameworks like atlas attack and defence is also given in mitre defend framework when an
+  attack happens their are a number of indicators like malicious executables being run and it downloading files or running commands host talking to system other than
+  network or normal connections defence services being executed new processes being created to make remain trojan new file and folders created and sudden deletion of
+  i portant files and folders new account created brute force attacks froma single ip or a number of ips in case of botnet 
