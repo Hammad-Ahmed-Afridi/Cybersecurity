@@ -80,4 +80,8 @@
   commnads were run what files were created and destroyed etc we can also look for accounts logged in using event id 4624 and failed logon using 4625 in security tab
   in linux we dont have any gui for viewing these logs so we use the command line using /var/log folder in which we can view the log files for authentication and other
   log files are also their we can use the ausearch command to look for processes and then create a tree process using process ids we can also use tail or head command then
-  file name for just outputing the top or bottom of the log files as their are too many logs in one file 
+  file name for just outputing the top or bottom of the log files as their are too many logs in one file
+- attackers use a number of ways to get initial access of the system then do some discovery then for persistence they run malwares so that even after the system reboots
+  or updates the connection does not get lost and then use taht connection to exfilterate data or do privilage escalation also they can use the system cpu or gpu resources
+  for cryptomining or add it in a botnet for using it for attacks
+- typical example of attack includes 
