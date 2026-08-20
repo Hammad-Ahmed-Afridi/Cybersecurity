@@ -78,4 +78,6 @@
   inception we can use filters to make our search more easy in windows all the events related to security application system are logged in windows event manager and we
   can use its gui to filter out logs using event ids for our ease the protocol being used is syslog and the main event is sysmon with event id 1 and we can view what
   commnads were run what files were created and destroyed etc we can also look for accounts logged in using event id 4624 and failed logon using 4625 in security tab
-  
+  in linux we dont have any gui for viewing these logs so we use the command line using /var/log folder in which we can view the log files for authentication and other
+  log files are also their we can use the ausearch command to look for processes and then create a tree process using process ids we can also use tail or head command then
+  file name for just outputing the top or bottom of the log files as their are too many logs in one file 
