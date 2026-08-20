@@ -84,4 +84,3 @@
 - attackers use a number of ways to get initial access of the system then do some discovery then for persistence they run malwares so that even after the system reboots
   or updates the connection does not get lost and then use taht connection to exfilterate data or do privilage escalation also they can use the system cpu or gpu resources
   for cryptomining or add it in a botnet for using it for attacks
-- typical example of attack includes 
