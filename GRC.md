@@ -8,7 +8,10 @@
   defined tolerance levels, transferring them via insurance, or avoiding them entirely. Crucially, every single measure, process, and decision must be
   thoroughly documented because internal, third-party, and certifying auditors rely strictly on this evidentiary trail to verify compliance, grant the Authorization
   to Operate (ATO), and build customer trust. Ultimately, compliance is not a one-time certification milestone but an ongoing process of continuous improvement
-  that adapts to an ever-changing threat landscape.\
+  that adapts to an ever-changing threat landscape.
+- in grc governance are a set of rules and goals for the comapny it includes people processes and procedures risk managemnt is process of understanding and mitigating
+  what might stop the company from reaching its desired goals following those rules and procedures and compliance is teh process of checking that the company is following
+  those internal rules and external laws when attaining their goals 
 - ISO 27001 is the only standard in the family against which an organization can get officially certified, while ISO 27000 serves as the vocabulary glossary and ISO
   27002 functions as the detailed instruction playbook
 - this is not about grc but it targets te critical infrastructure protection like the industries Critical infrastructure encompasses the vital sectors—such
