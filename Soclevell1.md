@@ -75,4 +75,5 @@
 - everythin that happens on an os is an event and that event when recorded is called a log and that tells us that certain actions were taken or this process happened and
   this also helps in non repudiation it tells us about system actiuvities security activities application activities like file created and deleted comands executed
   executables run clis run accounts created and deleted or modifies in windows we can view all these in windows event manager and when selectinga certain batch of logs for
-  inception we can use filters to make our search more easy 
+  inception we can use filters to make our search more easy in windows all the events related to security application system are logged in windows event manager and we
+  can use its gui to filter out logs using event ids for our ease 
